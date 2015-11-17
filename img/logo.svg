@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px"
+	 height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+<g id="Layer_7">
+	
+		<ellipse transform="matrix(-0.7321 0.6812 -0.6812 -0.7321 354.3248 0.297)" opacity="0.5" fill="#93D8ED" cx="177.104" cy="69.818" rx="43.771" ry="22.25"/>
+</g>
+<g id="Layer_1">
+	<ellipse fill="#F5ED64" cx="163.21" cy="131.443" rx="83.21" ry="53.224"/>
+	<circle fill="#6B652A" cx="257.652" cy="82.348" r="2.348"/>
+	<circle fill="#6B652A" cx="239.385" cy="84.696" r="2.348"/>
+</g>
+<g id="Layer_9">
+	<ellipse fill="#F5ED64" cx="205.212" cy="129.254" rx="40.669" ry="44.305"/>
+</g>
+<g id="Layer_2">
+	<path fill="none" stroke="#6B652A" stroke-miterlimit="10" d="M218.424,139.738c0,0,0.866,4.262,3.641,4.262
+		s3.682-4.262,3.682-4.262"/>
+	<circle fill="#FFFFFF" cx="202.206" cy="124.159" r="9.515"/>
+	<circle fill="#FFFFFF" cx="234.642" cy="121.818" r="9.515"/>
+	<circle fill="#6B652A" cx="204.072" cy="124.757" r="6.576"/>
+	<circle fill="#6B652A" cx="236.787" cy="122.818" r="6.576"/>
+</g>
+<g id="Layer_10">
+	<path fill="#6B652A" d="M197.496,179.953c0,0-20.392-17.07-20.392-52.845c0-35.775,20.392-44.176,20.392-44.176
+		S182.487,79.277,179.5,79.5c0,0-13.833,14.051-13.833,47.609s15.915,56.256,15.915,56.256S193.729,181.384,197.496,179.953z"/>
+	<path fill="#6B652A" d="M158.25,184.667c0,0-22.146-21.784-22.146-57.559c0-35.775,20.271-48.713,20.271-48.713
+		S141.487,79.277,138.5,79.5c0,0-13.833,14.051-13.833,47.609s15.395,55.471,15.395,55.471S153.334,184.573,158.25,184.667z"/>
+	<path fill="#6B652A" d="M120.771,177.232c0,0-17.771-20.791-17.771-56.566c0-17.288,13.337-33.206,13.337-33.206
+		s-11.853,5.325-15.335,9.158c0,0-9.439,11.915-9.439,24.049c0,33.557,12.705,48.343,12.705,48.343S115.83,175.904,120.771,177.232z
+		"/>
+	<path fill="#6B652A" d="M80.491,125.637L63,133.673l18.216,6.881C81.216,140.555,79,133.541,80.491,125.637z"/>
+</g>
+<g id="Layer_6">
+	
+		<ellipse transform="matrix(0.8673 0.4978 -0.4978 0.8673 52.4933 -50.4002)" opacity="0.5" fill="#93D8ED" cx="120.771" cy="73.25" rx="43.771" ry="22.25"/>
+</g>
+<g id="Layer_4">
+	<ellipse cx="197.718" cy="93.75" rx="25.718" ry="9.25"/>
+</g>
+<g id="Layer_3">
+	<ellipse fill="#302978" cx="205.044" cy="76.75" rx="24.25" ry="18.75"/>
+	<ellipse fill="#302978" cx="192.004" cy="83.5" rx="30.081" ry="15"/>
+	<ellipse fill="#101040" cx="196.333" cy="70.556" rx="3.03" ry="1.9"/>
+</g>
+<g id="Layer_5">
+	<path fill="none" stroke="#6B652A" stroke-miterlimit="10" d="M225.746,109.304c0,0,14.88-27.608,31.898-27.608"/>
+	<path fill="none" stroke="#6B652A" stroke-miterlimit="10" d="M207.486,112.305c0,0,14.88-27.609,31.898-27.609"/>
+</g>
+<g id="Layer_8">
+	<path fill="#CCB77F" d="M213.198,171.396c0,2.954-7.282-1.146-12.365,3.937c-4.25,4.25,4.965,8.54,2.013,10.271
+		c-7.516,4.41-18.475,7.188-30.679,7.188c-22.661,0-41.031-9.579-41.031-21.396c0-11.817,18.37-21.396,41.031-21.396
+		c14.163,0,26.65,3.741,34.024,9.433C210.615,162.848,213.198,166.965,213.198,171.396z"/>
+	<ellipse fill="#F5ED64" cx="201.856" cy="166.5" rx="3.356" ry="2.833"/>
+</g>
+<g id="Layer_12">
+	<rect x="178.25" y="157.041" fill="none" width="13" height="5.709"/>
+	<text transform="matrix(1 0 0 1 178.25 161.3008)" fill="#651011" font-family="'MyriadPro-Regular'" font-size="6">{CSS}</text>
+	<rect x="157.042" y="157.041" fill="none" width="17.25" height="9"/>
+	<text transform="matrix(1 0 0 1 157.042 161.3008)" fill="#3A53A4" font-family="'MyriadPro-Regular'" font-size="6">{SASS}</text>
+	<rect x="134.25" y="163.732" fill="none" width="21.833" height="9"/>
+	<text transform="matrix(1 0 0 1 134.2495 167.9922)" fill="#66BC46" font-family="'MyriadPro-Regular'" font-size="6">&lt;HTML&gt;</text>
+</g>
+</svg>
