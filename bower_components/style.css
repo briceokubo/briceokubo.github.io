@@ -1,4 +1,14 @@
 /*-- Index.html --*/
+.navbar {
+   margin-bottom: 0px;
+}
+
+.navbar-default {
+   background: #0D1B2A;
+   border-color: #0D1B2A;
+   border-radius: 0px;
+}
+
 .heroSpace {
    padding-top: 100px;
    padding-bottom: 100px;
