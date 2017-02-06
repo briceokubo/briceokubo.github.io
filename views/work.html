@@ -1,0 +1,21 @@
+<section class="work" ng-controller="workCtrl">
+   <div class="container">
+      <div class="paper">
+         <h1>My Work</h1>
+         <hr>
+         <div class="row">
+            <div ng-repeat="work in works">
+               <div class="col-md-4 col-sm-6 col-xs-12">
+                  <div class="img-responsive workBox">
+                     <img class="img-responsive" src="{{work.image}}">
+                     <br>
+                     <h3>{{work.title}}</h3>
+                     <br>
+                     <p>{{work.description}}</p>
+                     <p>{{work.tag}}</p>
+                  </div><!--workbox -->
+               </div><!--col -->
+            </div> <!--ng repeat -->
+      </div>
+   </div>
+</section>
