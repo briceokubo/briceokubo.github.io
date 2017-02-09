@@ -32,11 +32,11 @@
 
 }
 .hero {
-   background-image: url("images/hero.jpg");
+   background-image: url("images/hero.svg");
    width: 100%;
    background-color: black;
    align-content: center;
-   background-size: cover;
+   background-repeat: repeat;
    text-align: center;
    color: white;
    padding-top: 48px;
