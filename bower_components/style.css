@@ -120,7 +120,7 @@ h1, h2, h3 {
 
 p {
    font-family: 'Open Sans', sans-serif;
-   font-size: 18px;
+
 
 }
 textarea {
@@ -135,4 +135,8 @@ textarea {
 input {
    width: 100%;
    margin-bottom: 20px;
+}
+
+.techubBody {
+   font-size: 18px;
 }
