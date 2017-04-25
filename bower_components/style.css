@@ -138,5 +138,8 @@ input {
 }
 
 .techubBody {
+   h3 {
+      padding-bottom: 10px;
+   }
    font-size: 18px;
 }
