@@ -22,6 +22,10 @@
 
 .home {
    color: white;
+   text-align: left;
+   font-family: 'Raleway', sans-serif;
+   font-style: Bold;
+   font-size: 36px;
 }
 .navbar-default {
    background: none;
