@@ -8,7 +8,7 @@
 .card {
   width: 100%;
   margin-bottom: 20px;
-  border-radius: 0px 0px 5px 5px
+  border-radius: 5px 5px 5px 5px
 }
 .card .menu-content {
   margin: 0;
@@ -182,4 +182,9 @@
 }
 .example-1 .menu-content span {
   top: -10px;
+}
+/* MOD CSS  */
+.card .text {
+  height: 40px;
+  margin: 0;
 }
