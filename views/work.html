@@ -10,7 +10,7 @@
    <!--TESTing  -->
    <div class="container">
 
-<!-- 4 cards per row   ------------------------------->
+<!-- 3 cards per row   ------------------------------->
 
 <div class="row">
    <div ng-repeat="work in works">
@@ -21,10 +21,32 @@
             <div class="cardDesc">
                <div class="data">
                   <div class="content contentBg">
-                     <h3 class="title">{{work.title}}</h3>
+                     <div class="row">
+                        <div class="col-md-2 col-xs-2 col-sm-2  col-lg-2 col-xl-2"></div>
+                        <div class="col-md-8 col-xs-8 col-sm-8  col-lg-8 col-xl-8">
+                           <h3 class="title">{{work.title}}</h3>
+                        </div>
+                        <div class="col-md-2 col-xs-2 col-sm-2  col-lg-2 col-xl-2">
+                           <div class="arrowUp">
+                              <span class="glyphicon glyphicon-chevron-up"></span>
+                           </div>
+                        </div>
+                     </div><!--row -->
                      <p class="text">{{work.description}}</p>
-                  </div>
-               </div>
+
+                     <div class="workButton">
+                        <a href="{{work.a}}">
+                        <div class="col-md-8 col-md-offset-2 workButton">
+                           <div class="viewP">
+                              <span>View Project</span>
+                           </div>
+                        </div>
+                        </a>
+
+                     </div><!-- work button -->
+
+                  </div><!--contentBg -->
+               </div><!--data -->
             </div>
          </div>
          </div>
