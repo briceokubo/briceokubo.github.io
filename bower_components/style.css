@@ -7,6 +7,10 @@ h1, h2, h3 {
 p, h4, h5 {
    font-family: 'Roboto', sans-serif;
 }
+
+hr {
+   border-top: 1px solid #434359;
+}
 /*-- Nav.html -- */
 #contactBtn {
    background: #F2545B;
@@ -19,6 +23,7 @@ p, h4, h5 {
    border-radius: 3px;
    margin-right: 10px;
    margin-top: -20px;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .navbar {
@@ -67,22 +72,30 @@ p, h4, h5 {
 }
 
 .heroLeft {
-   padding-top: 10px
+   padding-top: 10px;
+   color: #434359;
 }
 @media screen and (min-width: 500px) {
    .heroLeft {
       visibility: hidden;
+      color: #434359;
    }
 }
 @media all and (max-width: 500px) {
    .heroLeft {
       padding-top: 0px;
+      color: #434359;
    }
 }
 #heroName {
    padding: 0px;
    font-size: 50px;
    letter-spacing: 3px;
+   color: #434359;
+}
+
+#heroDesc {
+   color: #434359;
 }
 .heroSpace {
    padding-top: 25px;
@@ -95,43 +108,47 @@ p, h4, h5 {
    }
 }
 
-/* -- Offer -- */
+/* -- -------------------------------------------Offer -- */
 .offer {
    background-color: #F8F8F8;
    width: 100%;
    text-align: center;
-   color: #000519;
    padding-top: 40px;
    padding-bottom: 50px;
    color: #13161D;
 }
 
 .offerTitle {
-   color: #626281;
+   color: #434359;
+}
+
+.offerDesc {
+   color: #272730;
 }
 .offerImg {
    display: inline;
    margin-left: 25%;
    margin: 0px;
-   width: 30%;
-   height: 30%;
+   /*width: 30%;
+   height: 30%;*/
 }
-/* -- About -- */
+/* -- ------------------------------------------------- About -- */
 .know {
    background-color: #F8F8F8;
    width: 100%;
    text-align: left;
-   color: #000519;
-   font-size: 16px;
+   font-size: 24px;
    /* line-height: 200%; */
 }
 
 .knowInfo {
    padding: 50px 25px 25px 50px;
+   color: #434359;
 }
 
 #knowTitle {
    text-align: center;
+   color: #434359;
 }
 @media all and (max-width: 500px) {
    .knowInfo{
@@ -141,9 +158,9 @@ p, h4, h5 {
 }
 .aboutImage {
    text-align: center;
-   padding: 0 25px 0 25px;
+   padding: 0 50px 0 25px;
 }
-/*-- Work section --*/
+/*-- --------------------------------------Work section --*/
 .work {
    background-color: #84D1DD;
    /* background-image: linear-gradient( 45deg, #5EFCE8 0%, #736EFE 100%); */
@@ -154,6 +171,7 @@ p, h4, h5 {
 
 #workTitle {
    padding-bottom: 0px;
+   color: #434359;
 }
 
 .paper {
@@ -173,8 +191,11 @@ p, h4, h5 {
 
 .title {
    padding-bottom: 3px;
+   color: #434359;
 }
-
+.text {
+   color: #272730;
+}
 .arrowUp {
    padding-top: 8px;
 }
@@ -194,7 +215,8 @@ p, h4, h5 {
    background-color: #FFFFFF;
    margin-bottom: 2em;
    border-radius: 5px;
-   box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25); /* 0px 6px 10px -5px #212121; */
+   /* box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25); */
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .cardImg {
    border-radius:5px 0px 0px 5px;
@@ -228,7 +250,8 @@ p, h4, h5 {
    background-color: #F2545B;
    border-radius: 5px;
    text-align: center;
-   box-shadow: 0 6px 5px -5px black;
+   /* box-shadow: 0 6px 5px -5px black; */
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
    padding: 8px 0px 8px 0px;
 }
 @media all and (max-width: 500px) {
@@ -243,7 +266,7 @@ p, h4, h5 {
       margin-bottom: 10px;
    }
 }
-/*-- testing for 4 cards a row --------------------------------------- --*/
+/*-- -------------------------------testing for 4 cards a row --------------------------------------- --*/
 .workCard {
    width: 100%;
    height: 300px;
