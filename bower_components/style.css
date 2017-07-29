@@ -8,8 +8,47 @@ p, h4, h5 {
    font-family: 'Roboto', sans-serif;
 }
 
+hr.section-divider {
+    margin-top: 52px;
+    margin-bottom: 42px;
+}
+
+hr.section-divider {
+    display: block;
+    border: 0;
+    text-align: center;
+}
+
 hr {
-   border-top: 1px solid #434359;
+    box-sizing: content-box;
+    height: 0;
+}
+
+hr.section-divider:before {
+    content: '...';
+    display: inline-block;
+    margin-left: .6em;
+    color: rgba(0,0,0,.6);
+    position: relative;
+    top: -30px;
+}
+
+hr.section-divider:before {
+    --x-height-multiplier: 0.363;
+    --baseline-multiplier: 0.157;
+    font-family: medium-content-slab-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 28px;
+    letter-spacing: .6em;
+}
+
+
+
+
+
+.shadow {
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 /*-- Nav.html -- */
 #contactBtn {
@@ -44,7 +83,7 @@ hr {
    align-content: center;
    text-align: center;
    color: #000519;
-   padding-top: 48px;
+   padding-top: 25px;
 }
 @media all and (max-width: 500px) {
    .hero {
@@ -132,7 +171,7 @@ hr {
    /*width: 30%;
    height: 30%;*/
 }
-/* -- ------------------------------------------------- About -- */
+/* -- ------------------------------------------------- About ----------------------- -- */
 .know {
    background-color: #F8F8F8;
    width: 100%;
@@ -159,6 +198,10 @@ hr {
 .aboutImage {
    text-align: center;
    padding: 0 50px 0 25px;
+}
+
+.aboutSum {
+   font-weight:300;
 }
 /*-- --------------------------------------Work section --*/
 .work {
@@ -326,6 +369,32 @@ footer {
 
 
 /* -- Work Pages-- */
+.titleSection {
+   padding: 25px 0 25px 0;
+   background-color: #434359;
+   color: white;
+}
+
+.workImg {
+   margin-bottom: 20px;
+}
+.titleWork {
+   padding-bottom: 0px;
+}
+.myWorkBody {
+   padding-top: 50px;
+}
+
+.workSum {
+   font-size: 24px;
+   color: #F8F8F8;
+   font-weight:300;
+}
+
+.bigImg {
+   width: 80%;
+   height: 80%;
+}
 .workHero {
    /* background-image: url("images/hero.svg"); */
    width: 100%;
@@ -348,4 +417,10 @@ footer {
       color: white;
       padding-top: 5px;
    }
+}
+
+/* Work Archive Section */
+
+.workArchive {
+   padding: 25px 0 25px 0;
 }
