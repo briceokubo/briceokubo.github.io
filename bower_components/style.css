@@ -377,6 +377,10 @@ footer {
 
 .workImg {
    margin-bottom: 20px;
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+
 }
 .titleWork {
    padding-bottom: 0px;
@@ -419,6 +423,44 @@ footer {
    }
 }
 
+/* Modern Compass section */
+.mobile {
+   background-color: #444459;
+}
+
+.MCtitle {
+   text-align: center;
+   color: white;
+   padding-bottom: 0px;
+   padding-top: 80px;
+}
+
+.MCsubtitle {
+   text-align: center;
+   color: #5DDBA4;
+}
+
+.concept {
+   padding: 25px 50px 50px 25px;
+   line-height: 200%;
+   font-size: 16px;
+}
+
+/* Hike Aloha */
+.HAtext {
+   font-size: 19px;
+   line-height: 1.9;
+   color: #40445E;
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.workHeader {
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+}
 /* Work Archive Section */
 
 .workArchive {
