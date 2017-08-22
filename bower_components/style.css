@@ -43,10 +43,6 @@ hr.section-divider:before {
     letter-spacing: .6em;
 }
 
-
-
-
-
 .shadow {
    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
@@ -87,10 +83,8 @@ hr.section-divider:before {
 }
 @media all and (max-width: 500px) {
    .hero {
-      /* background-image: url("images/hero2.svg"); */
       width: 100%;
       background-color: #84D1DD;
-      /* background-image: linear-gradient( 135deg, #5EFCE8 0%, #736EFE 100%); */
       align-content: center;
       text-align: center;
       color: #000519;
@@ -104,7 +98,7 @@ hr.section-divider:before {
    padding-left: 180px;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 800px) {
    .myTitle {
       visibility: hidden;
    }
@@ -114,7 +108,7 @@ hr.section-divider:before {
    padding-top: 10px;
    color: #434359;
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 800px) {
    .heroLeft {
       visibility: hidden;
       color: #434359;
@@ -160,10 +154,26 @@ hr.section-divider:before {
 .offerTitle {
    color: #434359;
 }
+@media all and (max-width: 800px) {
+   .offerTitle {
+      padding-bottom: 0;
+   }
+}
 
 .offerDesc {
-   color: #272730;
+   font-size: 14px;
+   line-height: 1.5;
+   color: #40445E;
 }
+
+@media all and (max-width: 800px) {
+   .offerDesc {
+      font-size: 16px;
+      line-height: 1.9;
+      color: #40445E;
+   }
+}
+
 .offerImg {
    display: inline;
    margin-left: 25%;
@@ -175,33 +185,65 @@ hr.section-divider:before {
 .know {
    background-color: #F8F8F8;
    width: 100%;
-   text-align: left;
-   font-size: 24px;
-   /* line-height: 200%; */
 }
 
 .knowInfo {
    padding: 50px 25px 25px 50px;
    color: #434359;
 }
-
+@media all and (max-width: 500px) {
+   .knowInfo{
+      padding: 0px 20px 0px 20px;
+   }
+}
 #knowTitle {
    text-align: center;
    color: #434359;
 }
 @media all and (max-width: 500px) {
-   .knowInfo{
-      font-size: 0.8em;
-      padding: 0px 20px 0px 20px;
+   #knowTitle{
+      padding-top: 25px;
+      margin-bottom: 0px;
    }
 }
 .aboutImage {
    text-align: center;
    padding: 0 50px 0 25px;
 }
-
+@media all and (max-width: 500px) {
+   .aboutImage{
+   padding: 0 10px 0 10px;
+   }
+}
 .aboutSum {
    font-weight:300;
+   font-size: 24px;
+   text-align: left;
+}
+
+@media all and (max-width: 500px) {
+   .aboutSum{
+   font-size: 16px;
+   line-height: 1.5;
+   padding-bottom: 25px;
+   }
+}
+
+.aboutSize {
+   height: 90%;
+   width: 90%;
+}
+@media all and (max-width: 500px) {
+   .aboutSize{
+   height: 100%;
+   width: 100%;
+   }
+}
+@media all and (max-width: 1024px) {
+   .aboutSize{
+   height: 100%;
+   width: 100%;
+   }
 }
 /*-- --------------------------------------Work section --*/
 .work {
@@ -258,7 +300,6 @@ hr.section-divider:before {
    background-color: #FFFFFF;
    margin-bottom: 2em;
    border-radius: 5px;
-   /* box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25); */
    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .cardImg {
@@ -285,6 +326,13 @@ hr.section-divider:before {
 
 .workButton {
    margin-bottom: 25px;
+}
+
+@media all and (max-width: 800px) {
+   .workButton {
+      margin-bottom: 10px;
+      padding-top: 10px;
+   }
 }
 
 .viewP {
@@ -380,13 +428,19 @@ footer {
    max-width: 800px;
    margin-left: auto;
    margin-right: auto;
-
+}
+@media all and (max-width: 800px) {
+   .workImg {
+      max-width: 100%;
+      max-height: 100%;
+   }
 }
 .titleWork {
    padding-bottom: 0px;
 }
 .myWorkBody {
    padding-top: 50px;
+   padding-bottom: 50px;
 }
 
 .workSum {
@@ -441,9 +495,7 @@ footer {
 }
 
 .concept {
-   padding: 25px 50px 50px 25px;
-   line-height: 200%;
-   font-size: 16px;
+   padding: 25px 10px 25px 10px;
 }
 
 /* Hike Aloha */
@@ -455,14 +507,31 @@ footer {
    margin-left: auto;
    margin-right: auto;
 }
+@media all and (max-width: 500px) {
+   .HAtext {
+      font-size: 16px;
+      line-height: 1.9;
+      color: #40445E;
+      max-width: auto;
+
+   }
+}
 
 .workHeader {
    max-width: 800px;
    margin-left: auto;
    margin-right: auto;
+   color: #40445E;
 }
 /* Work Archive Section */
 
 .workArchive {
-   padding: 25px 0 25px 0;
+   padding: 25px 10px 25px 10px;
+}
+
+.archiveTitle {
+   text-align: center;
+}
+.archiveImg{
+   text-align: center;
 }

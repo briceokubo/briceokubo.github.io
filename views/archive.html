@@ -1,59 +1,20 @@
-<section ng-app>
+<section ng-controller="workCtrl" id="work">
    <hr>
-   <div class="container">
-   <div class="workArchive">
+   <div class="container workArchive">
       <div class="row">
-         <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
-            <div class="archiveImg">
-               <img src="http://placehold.it/200x200" class="img-responsive">
-            </div>
-            <div class="archiveTitle">
-               <h4>Carbon Neutrality Challenge</h4>
-            </div>
-         </div>
-         <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
-            <div class="archiveImg">
-               <img src="http://placehold.it/200x200" class="img-responsive">
-            </div>
-            <div class="archiveTitle">
-               <h4>Carbon Neutrality Challenge</h4>
-            </div>
-         </div>
-         <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
-            <div class="archiveImg">
-               <img src="http://placehold.it/200x200" class="img-responsive">
-            </div>
-            <div class="archiveTitle">
-               <h4>Carbon Neutrality Challenge</h4>
-            </div>
-         </div>
-         <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
-            <div class="archiveImg">
-               <img src="http://placehold.it/200x200" class="img-responsive">
-            </div>
-            <div class="archiveTitle">
-               <h4>Carbon Neutrality Challenge</h4>
-            </div>
-         </div>
-         <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
-            <div class="archiveImg">
-               <img src="http://placehold.it/200x200" class="img-responsive">
-            </div>
-            <div class="archiveTitle">
-               <h4>Carbon Neutrality Challenge</h4>
-            </div>
-         </div>
-         <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
-            <div class="archiveImg">
-               <img src="http://placehold.it/200x200" class="img-responsive">
-            </div>
-            <div class="archiveTitle">
-               <h4>Carbon Neutrality Challenge</h4>
-            </div>
-         </div>
-
+         <div ng-repeat="work in works">
+            <a href="{{work.a}}">
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+               <div class="archiveImg">
+                  <img src="{{work.image}}" class="img-responsive img-rounded shadow"  >
+               </div>
+               <div class="archiveTitle">
+                  <h4>{{work.title}}</h4>
+               </div> <!--archive title -->
+            </div><!--column -->
+            </a>
+         </div> <!--ng repeat -->
       </div><!--row -->
-   </div><!--workArchive -->
+   </div> <!--container  -->
 
-</div>
 </section>
