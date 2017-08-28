@@ -171,6 +171,7 @@ hr.section-divider:before {
       font-size: 16px;
       line-height: 1.9;
       color: #40445E;
+      padding: 0 10px 0 10px;
    }
 }
 
@@ -188,31 +189,30 @@ hr.section-divider:before {
 }
 
 .knowInfo {
-   padding: 50px 25px 25px 50px;
    color: #434359;
 }
 @media all and (max-width: 500px) {
    .knowInfo{
-      padding: 0px 20px 0px 20px;
+
    }
 }
 #knowTitle {
    text-align: center;
    color: #434359;
+   margin-top: 50px;
 }
 @media all and (max-width: 500px) {
    #knowTitle{
-      padding-top: 25px;
       margin-bottom: 0px;
    }
 }
 .aboutImage {
    text-align: center;
-   padding: 0 50px 0 25px;
+
 }
 @media all and (max-width: 500px) {
    .aboutImage{
-   padding: 0 10px 0 10px;
+
    }
 }
 .aboutSum {
@@ -225,13 +225,13 @@ hr.section-divider:before {
    .aboutSum{
    font-size: 16px;
    line-height: 1.5;
-   padding-bottom: 25px;
+   padding: 0 20px 25px 20px;
    }
 }
 
 .aboutSize {
-   height: 90%;
-   width: 90%;
+   height: 100%;
+   width: 100%;
 }
 @media all and (max-width: 500px) {
    .aboutSize{
@@ -388,23 +388,10 @@ hr.section-divider:before {
    width: 100%;
    padding-bottom: 50px;
    padding-top: 50px;
-   color: white;
 }
-
-textarea {
-   width: 100%;
-   height: 10em;
+.contactImg {
+   margin-bottom: 10px;
 }
-
-.submit-btn {
-   margin-top: 25px;
-}
-
-input {
-   width: 100%;
-   margin-bottom: 20px;
-}
-
 /* -- Footer -- */
 footer {
    background-color: #0D1B2A;
