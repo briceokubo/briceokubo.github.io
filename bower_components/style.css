@@ -47,7 +47,7 @@ hr.section-divider:before {
    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 /*-- Nav.html -- */
-#contactBtn {
+.contactBtn {
    background: #F2545B;
    color: white;
    padding: 15px 32px;
@@ -57,10 +57,24 @@ hr.section-divider:before {
    font-size: 16px;
    border-radius: 3px;
    margin-right: 10px;
-   margin-top: -20px;
-   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
+.btn_hover {
+   background: #F37678;
+   color: white;
+   padding: 20px 35px;
+   border: none;
+   text-align: center;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 3px;
+   margin-right: 10px;
+   margin-top: -10px;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
 .navbar {
    margin-bottom: 0px;
 }
@@ -69,6 +83,20 @@ hr.section-divider:before {
    background: none;
    border: none;
    border-radius: 0px;
+}
+
+.logo {
+   width: 50px;
+   height: 50px;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.logo_hover {
+   height: 60px;
+   width: 60px;
+   margin-top: -10px;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 /* -- Hero -- */
 .hero {
@@ -344,6 +372,7 @@ hr.section-divider:before {
    /* box-shadow: 0 6px 5px -5px black; */
    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
    padding: 8px 0px 8px 0px;
+
 }
 @media all and (max-width: 500px) {
    .viewP {
@@ -356,6 +385,15 @@ hr.section-divider:before {
       padding: 8px 0px 8px 0px;
       margin-bottom: 10px;
    }
+}
+
+.viewP_hover {
+   color: #F2545B;
+   background: white;
+   border-style: solid;
+   border-color: #F2545B;
+   box-shadow: none;
+   padding: 5px 0px 5px 0px;
 }
 /*-- -------------------------------testing for 4 cards a row --------------------------------------- --*/
 .workCard {
@@ -391,6 +429,12 @@ hr.section-divider:before {
 }
 .contactImg {
    margin-bottom: 10px;
+   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.contactImg_hover {
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   margin-top: -10px;
 }
 /* -- Footer -- */
 footer {
@@ -402,6 +446,109 @@ footer {
    color: white;
 }
 
+/* -- Resume--*/
+.resume {
+   background-color: #F8F8F8;
+}
+
+.resumeImg {
+   margin-bottom: 25px;
+}
+
+.resumeBtn {
+   margin: 10px 0 10px 0;
+   background: #F2545B;
+   color: white;
+   padding: 15px 32px;
+   border: none;
+   text-align: center;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 3px;
+   margin-right: 10px;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+/* -- My Work Page -- */
+.myWorkHero{
+   width: 100%;
+   background-color: #434359;
+   align-content: center;
+   text-align: center;
+   color: white;
+   padding-top: 24px;
+   padding-bottom: 24px;
+}
+
+@media all and (max-width: 500px) {
+   .myWorkHero {
+      width: 100%;
+      background-color: #434359;
+      align-content: center;
+      text-align: center;
+      color: white;
+      padding-top: 5px;
+   }
+}
+.MWbody {
+   background-color: #F8F8F8;
+}
+.MWtext {
+   background-color: white;
+}
+.MWcard {
+   background-color: white;
+   margin-bottom: 20px;
+   border-radius:5px 5px 5px 5px;
+
+}
+
+.MWinfo {
+   padding: 10px 25px 10px 10px;
+}
+.MWspace {
+   padding: 25px 50px 25px 50px;
+}
+@media all and (max-width: 500px) {
+   .MWspace {
+      padding: 25px 10px 10px 10px;
+   }
+}
+
+.MWicon {
+   border-radius:5px 0 0 5px;
+   height: 100%;
+   width: 100%;
+}
+@media all and (max-width: 500px) {
+   .MWicon {
+      border-radius:5px 5px 0 0;
+   }
+}
+.tagWD {
+   background-color: #0583BE;
+   color: white;
+   border-radius: 10px;
+   font-size: 12px;
+   padding: 2px 5px 2px 5px;
+}
+
+.tagB {
+   background-color: #F2545B;
+   color: white;
+   border-radius: 10px;
+   font-size: 12px;
+   padding: 2px 5px 2px 5px;
+}
+
+.tagMD {
+   background-color: #636281;
+   color: white;
+   border-radius: 10px;
+   font-size: 12px;
+   padding: 2px 5px 2px 5px;
+}
 
 /* -- Work Pages-- */
 .titleSection {
@@ -441,25 +588,21 @@ footer {
    height: 80%;
 }
 .workHero {
-   /* background-image: url("images/hero.svg"); */
    width: 100%;
-   background-color: #118DBF;
+   background-color: #84D1DD;
    align-content: center;
-   background-repeat: repeat;
    text-align: center;
-   color: white;
+   color: #434359;
    padding-top: 24px;
    padding-bottom: 24px;
 }
 @media all and (max-width: 500px) {
    .workHero {
-      /* background-image: url("images/hero.svg"); */
       width: 100%;
-      background-color: #118DBF;
+      background-color: #84D1DD;
       align-content: center;
-      background-repeat: repeat;
       text-align: center;
-      color: white;
+      color: #434359;
       padding-top: 5px;
    }
 }
