@@ -13,9 +13,14 @@
                         </div>
                         <div class="col-md-6">
                            <div class="MWinfo">
-                              <h3 class="title">{{work.title}}</h3>
-                              <span class="{{work.color}}">{{work.tag}}</span>
-                              <p class="text">{{work.description}}</p>
+                              <h3 class="MWtitle">{{work.title}}</h3>
+                              <div class="tagArea">
+                                 <span class="{{work.color}}">{{work.tag}}</span>
+                                 <span class="{{work.color2}}">{{work.tag2}}</span>
+                              </div>
+                              <div class="MWdesc">
+                                 <p class="text">{{work.description}}</p>
+                              </div>
                               <a href="{{work.a}}">
                               <div class="viewP">
                                  <span>View Project</span>
@@ -32,12 +37,47 @@
       </div><!--ng repeat -->
    </div><!--Row -->
 
+   <!-- Single card-->
+   <div class="row">
+   <div ng-repeat="work in works">
 
+         <div class="col-lg-12">
+            <div class="shadow MWcard">
+               <div class="row">
+                     <div class="col-md-6">
+                        <img src="{{work.image}}" class="img-responsive MWicon">
+                     </div>
+                     <div class="col-md-6">
+                        <div class="MWinfo">
+                           <h3 class="MWtitle">{{work.title}}</h3>
+                           <div class="tagArea">
+                              <span class="{{work.color}}">{{work.tag}}</span>
+                              <span class="{{work.color2}}">{{work.tag2}}</span>
+                           </div>
+                           <div class="MWdesc">
+                              <p class="text">{{work.description}}</p>
+                           </div>
+                           <a href="{{work.a}}">
+                           <div class="viewP">
+                              <span>View Project</span>
+                           </div>
+                           </a>
+                        </div> <!--MWinfo -->
+                     </div><!--col-md-6 -->
+               </div><!--row -->
 
+            </div>
 
+         </div> <!--whole card -->
 
-   </div><!-- MWspace-->
+   </div><!--ng repeat -->
+</div><!--Row -->
+
+</div><!-- MWspace-->
 
 </div><!-- MWbody -->
+
+   <!--  Single card Test-->
+
 <script src="content/js/workBtn.js"></script>
 </section>
