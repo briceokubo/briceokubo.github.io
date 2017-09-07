@@ -10,3 +10,37 @@ app.controller("workCtrl", function ($scope) {
       { image: "content/images/homepage/deependHero.svg", title: "A Beauty Website", description: "Web design for beauty products", a: "deepend.html", tag: "Web Design", color: "tagWD", tag2: "Mobile Design", color2: "tagMD"},
    ];
 })
+
+app.controller("mainCtrl", function ($scope){
+   $scope.mains = [
+      { section: "views/offer.html"},
+      { section: "views/work.html" },
+      { section: "views/about.html"},
+      { section: "views/contact.html"},
+   ];
+})
+
+
+app.controller('sectionCtrl', ['$scope', function($scope) {
+    $scope.section = 'views/offer.html';
+
+    $scope.aboutSection = function() {
+        $scope.section = 'views/about.html';
+    };
+
+    $scope.offerSection = function() {
+        $scope.section = 'views/offer.html';
+    };
+
+    $scope.workSection = function() {
+        $scope.section = 'views/work.html';
+    };
+
+    $scope.contactSection = function() {
+      $scope.section = 'views/contact.html';
+  };
+
+   $scope.MCwork = function() {
+      $scope.section = 'views/MCbody.html';
+};
+}]);
