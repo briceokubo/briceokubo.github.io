@@ -685,3 +685,14 @@ footer {
 .archiveImg{
    text-align: center;
 }
+
+/* demo */
+.wall {
+   background: #84D1DD;
+   padding-bottom: 25px;
+   background-image: url("images/hero3.svg");
+}
+
+.sectionColor {
+   background-color: #F8F8F8;
+}
