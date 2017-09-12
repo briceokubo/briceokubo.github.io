@@ -33,7 +33,7 @@
                <li><button class="contactBtn" ng-click="offerSection()">Offer</button></li>
                <li><button class="contactBtn" ng-click="aboutSection()">About</button></li>
                <li><button class="contactBtn" ng-click="workSection()">Work</button></li>
-               <li><button class="contactBtn" ng-click="MCwork()">MC</button></li>
+               <li><button class="contactBtn" ng-click="resumeSection()">Resume</button></li>
                <li><button class="contactBtn" ng-click="contactSection()">Contact</button></li>
                </ul>
             </div>
@@ -41,24 +41,9 @@
             </div>
          </nav>
             <script src="content/js/button.js"></script>
-
-
-             <!-- This section is made with a controller to display sections with the ability to query
-             <div ng-include="'views/demoNav.html'"></div>
-         <section ng-controller="mainCtrl" id="main">
-            <div ng-repeat="main in mains | filter:query">
-               <div ng-include='main.section'></div>
-            </div>
-         </section> -->
-
-            <!-- This is orginal look with sections single page -->
-            <!-- <div ng-include="'views/nav.html'"></div>
-            <div ng-include="'views/offer.html'"></div>
-            <div ng-include="'views/work.html'"></div>
-            <div ng-include="'views/about.html'"></div> -->
-         </div>
+         </div><!--container -->
       </div>
-      <div ng-include="'views/footer.html'"></div>
+      <div ng-include="'views/homepage/footer.html'"></div>
       <script src="bower_components/angular/angular.js"></script>
       <script src="bower_components/jquery/dist/jquery.min.js"></script>
       <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
