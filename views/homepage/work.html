@@ -1,12 +1,11 @@
-<section class="work" ng-controller="workCtrl" id="work">
+<section class="work frameSize" ng-controller="workCtrl" id="work">
    <!-- <div class="container">
       <div class="paper">
          <h1 id="workTitle">My Work</h1>
       </div>
    </div> DISABLED for DEMO TESTING-->
 
-   <!--TESTing  -->
-   <div class="container">
+
 
 <!-- 3 cards per row   ------------------------------->
 
@@ -31,18 +30,7 @@
                         </div>
                      </div><!--row -->
                      <p class="text">{{work.description}}</p>
-
-                     <div class="workButton">
-                        <a href="{{work.a}}">
-                        <div class="col-md-8 col-md-offset-2 workButton">
-                           <div class="viewP">
-                              <span>View Project</span>
-                           </div>
-                        </div>
-                        </a>
-
-                     </div><!-- work button -->
-
+                     <div ng-include='work.workBtn'></div>
                   </div><!--contentBg -->
                </div><!--data -->
             </div>
@@ -54,7 +42,7 @@
 
 <script src="content/js/workBtn.js"></script>
 
-</div><!--container -->
+
 
 
 </section>
