@@ -1,14 +1,14 @@
-<section class="work frameSize" ng-controller="workCtrl" id="work">
-   <!-- <div class="container">
+<section class="work" ng-controller="workCtrl" id="work">
+   <div class="container">
       <div class="paper">
          <h1 id="workTitle">My Work</h1>
       </div>
-   </div> DISABLED for DEMO TESTING-->
+   </div>
 
 
 
 <!-- 3 cards per row   ------------------------------->
-
+<div class="container">
 <div class="row">
    <div ng-repeat="work in works">
       <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 cardMargin">
@@ -17,7 +17,8 @@
             <img src="{{work.image}}" class="img-responsive cardImage" height="100%" width="100%">
             <div class="cardDesc">
                <div class="data">
-                  <div class="content contentBg">
+                  <div class="content">
+
                      <div class="row">
                         <div class="col-md-2 col-xs-2 col-sm-2  col-lg-2 col-xl-2"></div>
                         <div class="col-md-8 col-xs-8 col-sm-8  col-lg-8 col-xl-8">
@@ -31,6 +32,7 @@
                      </div><!--row -->
                      <p class="text">{{work.description}}</p>
                      <div ng-include='work.workBtn'></div>
+
                   </div><!--contentBg -->
                </div><!--data -->
             </div>
@@ -39,6 +41,7 @@
       </div>
    </div><!--ng repeat -->
 </div><!--row  -->
+</div>
 
 <script src="content/js/workBtn.js"></script>
 
