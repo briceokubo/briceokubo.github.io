@@ -1,10 +1,5 @@
 <section  ng-app>
    <!-- Title Section-->
-   <div class="closeButton">
-      <div ng-click="workSection()">
-         <img src="content/images/xbutton.svg" class="img-circle shadow xbutton" alt="">
-      </div>
-   </div>
    <div class="titleSection">
       <!-- <div ng-include="'views/nav.html'"></div> --> <!--Disabled for demo.html TESTING -->
       <div class="container">
@@ -76,5 +71,9 @@
             Modern Compass is still in development and plans to release the beta in December. The design of Modern Compass is always evolving with the current trends. From a web designer standpoint,  this project and team is very passionate and will always be moving towards the best designs to best mesh with our target audience and application.
          </p>
       </div>
+   </div>
+   <div ng-include="'views/archive.html'"></div>
+   <div class="closeButton">
+         <img src="content/images/xbutton.svg" class="img-circle shadow xbutton" alt="" ng-click="workSection()">
    </div>
 </section>
