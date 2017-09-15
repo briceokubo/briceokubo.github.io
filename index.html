@@ -1,52 +1,56 @@
-<!DOCTYPE html>
-<html ng-app="myApp">
-   <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Brice Okubo | UX & Web Designer</title>
-      <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="bower_components/card.css">
-      <link rel="stylesheet" type="text/css" href="bower_components/style.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-      <link rel="shortcut icon" href="content/images/Blogo.png" type="image/x-icon" />
-   </head>
-   <body>
-      <div ng-include="'views/demoHero.html'"></div>
-      <div class="wall">
-         <div class="container sectionColor shadow">
+<!doctype html>
+<html ng-app="myApp" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Brice Okubo | UX & Web Designer</title>
+   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="bower_components/card.css">
+   <link rel="stylesheet" type="text/css" href="bower_components/style.css">
+	<link rel="stylesheet" href="content/css/navStyle.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+   <link rel="shortcut icon" href="content/images/Blogo.png" type="image/x-icon" />
+</head>
+<body>
 
-            <nav class="navbar navbar-default">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-             <span class="sr-only">Toggle navigation</span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-            </button>
-            </div>
+	<section id="cd-intro">
+		<div id="cd-intro-tagline">
+		</div> <!-- #cd-intro-tagline -->
+		<div ng-include="'views/demoHero.html'"></div>
+</section> <!-- #cd-intro -->
 
-            <div ng-controller="sectionCtrl">
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-               <ul class="nav navbar-nav">
-               <li><button class="contactBtn" ng-click="offerSection()">Offer</button></li>
-               <li><button class="contactBtn" ng-click="aboutSection()">About</button></li>
-               <li><button class="contactBtn" ng-click="workSection()">Work</button></li>
-               <li><button class="contactBtn" ng-click="resumeSection()">Resume</button></li>
-               <li><button class="contactBtn" ng-click="contactSection()">Contact</button></li>
-               </ul>
-            </div>
-            <div ng-include='section'></div>
-            </div>
-         </nav>
-            <script src="content/js/button.js"></script>
-         </div><!--container -->
-      </div>
-      <div ng-include="'views/homepage/footer.html'"></div>
-      <script src="bower_components/angular/angular.js"></script>
-      <script src="bower_components/jquery/dist/jquery.min.js"></script>
-      <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-      <script src="content/js/app.js"></script>
-   </body>
+   <div class="container sectionColor shadow">
+      <div ng-controller="sectionCtrl">
+	<div class="cd-secondary-nav">
+		<a href="#0" class="cd-secondary-nav-trigger">Menu<span></span></a> <!-- button visible on small devices -->
+
+		<nav>
+			<ul>
+            <li><a href="#id"><button class="navButton" ng-click="offerSection()"><b>Offer</b></button></a></li>
+            <li><a><button class="navButton" ng-click="aboutSection()"><b>About</b></button></a></li>
+            <li><a><button class="navButton" ng-click="workSection()"><b>Work</b></button></a></li>
+            <li><a><button class="navButton" ng-click="resumeSection()"><b>Resume</b></button></a></li>
+            <li><a><button class="navButton" ng-click="contactSection()"><b>Contact</b></button></a></li>
+			</ul>
+		</nav>
+
+      </div> <!--.sectionCtrl -->
+	<main class="cd-main-content">
+      <div ng-include='section' ></div>
+	</main> <!-- .cd-main-content -->
+	</div> <!-- .cd-secondary-nav -->
+</div><!--container -->
+
+<div ng-include="'views/homepage/footer.html'"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="content/js/main.js"></script> <!-- Resource jQuery -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="content/js/close.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="content/js/app.js"></script>
+<script src="content/js/animate.js"></script>
+</body>
 </html>
