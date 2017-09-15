@@ -52,6 +52,7 @@
           transform: translateY(0);
 }
 .card .data {
+   background-color: white;
   position: absolute;
   bottom: 0;
   width: 100%;
