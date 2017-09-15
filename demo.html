@@ -28,7 +28,7 @@
 
 		<nav>
 			<ul>
-            <li><a><button class="navButton" ng-click="offerSection()"><b>Offer</b></button></a></li>
+            <li><a href="#id"><button class="navButton" ng-click="offerSection()"><b>Offer</b></button></a></li>
             <li><a><button class="navButton" ng-click="aboutSection()"><b>About</b></button></a></li>
             <li><a><button class="navButton" ng-click="workSection()"><b>Work</b></button></a></li>
             <li><a><button class="navButton" ng-click="resumeSection()"><b>Resume</b></button></a></li>
@@ -38,7 +38,7 @@
 
       </div> <!--.sectionCtrl -->
 	<main class="cd-main-content">
-      <div ng-include='section'></div>
+      <div ng-include='section' ></div>
 	</main> <!-- .cd-main-content -->
 	</div> <!-- .cd-secondary-nav -->
 </div><!--container -->
@@ -47,8 +47,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="content/js/main.js"></script> <!-- Resource jQuery -->
 <script src="bower_components/angular/angular.js"></script>
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="content/js/close.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="content/js/app.js"></script>
+<script src="content/js/animate.js"></script>
 </body>
 </html>
