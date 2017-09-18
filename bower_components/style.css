@@ -194,7 +194,7 @@ hr.section-divider:before {
    width: 100%;
    text-align: center;
    padding-top: 25px;
-   padding-bottom: 25px;
+   padding-bottom: 50px;
    color: #13161D;
    -webkit-transition:all linear 0.5s;
    transition:all linear 0.5s;
@@ -295,6 +295,11 @@ transition:all linear 0.5s;
    height: 100%;
    width: 100%;
    }
+}
+
+.aboutProfile {
+   padding-left: 35%;
+   padding-bottom: 20px;
 }
 /*-- --------------------------------------Work section --*/
 .work {
