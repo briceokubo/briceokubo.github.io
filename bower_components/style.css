@@ -747,7 +747,15 @@ footer {
    right: 10%;
 }
 
+.footIcon {
+   height: 60px;
+   width: 60px;
+   padding-left: 30px;
+}
 
+.version {
+   padding-top: 25px;
+}
 /* animate DEMO*/
 .text-center {
   text-align: center;
