@@ -190,7 +190,7 @@ hr.section-divider:before {
 
 /* -- -------------------------------------------Offer -- */
 .offer {
-   background-color: #F8F8F8;
+   background-color: #FAFAFA;
    width: 100%;
    text-align: center;
    padding-top: 25px;
@@ -270,6 +270,7 @@ transition:all linear 0.5s;
    font-weight:300;
    font-size: 20px;
    text-align: left;
+   padding-left: 40px;
 }
 
 @media all and (max-width: 500px) {
@@ -281,8 +282,8 @@ transition:all linear 0.5s;
 }
 
 .aboutSize {
-   height: 90%;
-   width: 90%;
+   height: 100%;
+   width: 100%;
 }
 @media all and (max-width: 500px) {
    .aboutSize{
