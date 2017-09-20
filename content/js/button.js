@@ -42,3 +42,11 @@ $(document).ready(function(){
       this.src= "content/images/footer/git.svg"
    });
 });
+
+
+$(document).ready(function(){
+  $('.navButton').click(function(){
+    $('.navButton').removeClass('active').addClass('inactive');
+     $(this).removeClass('inactive').addClass('active');
+    });
+})
