@@ -24,14 +24,14 @@
    <div class="container sectionColor shadow">
       <div ng-controller="sectionCtrl">
 	<div class="cd-secondary-nav">
-		<a href="#0" class="cd-secondary-nav-trigger">Menu<span></span></a> <!-- button visible on small devices -->
+		<a href="#0" class="cd-secondary-nav-trigger">Menu<span>Menu</span></a> <!-- button visible on small devices -->
 
 		<nav>
 			<ul>
-            <li><a href="#id"><button class="navButton" ng-click="offerSection()"><b>About</b></button></a></li>
-            <li><a><button class="navButton" ng-click="workSection()"><b>Work</b></button></a></li>
-            <li><a><button class="navButton" ng-click="resumeSection()"><b>Resume</b></button></a></li>
-            <li><a><button class="navButton" ng-click="contactSection()"><b>Contact</b></button></a></li>
+            <li><a><button class="navButton active" ng-click="offerSection()"><b>About</b></button></a></li>
+            <li><a><button class="navButton inactive" ng-click="workSection()"><b>Work</b></button></a></li>
+            <li><a><button class="navButton inactive" ng-click="resumeSection()"><b>Resume</b></button></a></li>
+            <li><a><button class="navButton inactive" ng-click="contactSection()"><b>Contact</b></button></a></li>
 			</ul>
 		</nav>
 
