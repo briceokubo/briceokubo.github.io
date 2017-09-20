@@ -470,14 +470,18 @@ transition:all linear 0.5s;
    margin-top: -10px;
 }
 /* -- Footer -- */
-footer {
+
+.myFooter {
    background-color: #0D1B2A;
    width: 100%;
    padding-bottom: 20px;
    padding-top: 25px;
    text-align: center;
    color: white;
+   margin-right: 0;
+   margin-left: 0;
 }
+
 
 /* -- Resume--*/
 .resume {
@@ -751,45 +755,20 @@ footer {
    height: 60px;
    width: 60px;
    padding-left: 30px;
+   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 .version {
    padding-top: 25px;
 }
+
+.active {
+   color: #F0555C;
+   transition:all linear 0.3s;
+}
+
+.inactive {
+   color: #F8F8F8;
+   transition:all linear 0.3s;
+}
 /* animate DEMO*/
-.text-center {
-  text-align: center;
-}
-li span {
-  float: right;
-  cursor: pointer;
-}
-
-.fade {
-  transition: 1s linear all;
-  -webkit-transition: 1s linear all;
-}
-
-.fade.ng-enter {
-  opacity: 0;
-}
-
-.fade.ng-enter.ng-enter-active {
-  opacity: 1;
-}
-
-.fade.ng-leave {
-  opacity: 1;
-}
-
-.fade.ng-leave.ng-leave-active {
-  opacity: 0;
-}
-
-.text-center {
-  text-align: center;
-}
-li span {
-  float: right;
-  cursor: pointer;
-}
