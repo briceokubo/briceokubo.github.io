@@ -750,12 +750,13 @@ transition:all linear 0.5s;
    top:250px;
    right: 10%;
 }
+@media all and (max-width: 1024px) {
+   .closeButton {
+      right: 0;
+      left: 2%;
+   }
+}
 
-/*.closeButton {
-   position:fixed;
-   bottom:100px;
-   right: 2%;
-}*/
 
 .footIcon {
    height: 60px;
