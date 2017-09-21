@@ -55,12 +55,14 @@ jQuery(document).ready(function($){
 		secondaryNav.find('ul').toggleClass('is-visible');
 	});
 
-	//on mobile - open/close secondary navigation clicking/tapping the .cd-secondary-nav-trigger -my code-
+	//on mobile - open/close secondary navigation clicking/tapping navButtons -my code-
 	if($(window).width() <= 700){
 	$('.navButton').on('click', function(event){
 		event.preventDefault();
 		$(this).toggleClass('menu-is-open');
 		secondaryNav.find('ul').toggleClass('is-visible');
+		$('.cd-secondary-nav-trigger').removeClass('menu-is-open'); // changes hamburger icon to X and X back to hamburger 
+		secondaryNav.find('ul').removeClass('is-visible'); //
 	});
 }
 
