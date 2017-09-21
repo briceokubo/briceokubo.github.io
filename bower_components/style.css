@@ -751,6 +751,12 @@ transition:all linear 0.5s;
    right: 10%;
 }
 
+/*.closeButton {
+   position:fixed;
+   bottom:100px;
+   right: 2%;
+}*/
+
 .footIcon {
    height: 60px;
    width: 60px;
