@@ -469,6 +469,17 @@ transition:all linear 0.5s;
    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
    margin-top: -10px;
 }
+
+.contactSpace {
+   margin: 0;
+}
+#message {
+   padding-left: 50px;
+}
+
+#follow {
+   text-align: center;
+}
 /* -- Footer -- */
 
 .myFooter {
@@ -727,7 +738,11 @@ transition:all linear 0.5s;
    padding: 0;
    margin-bottom: 25px;
 }
-
+@media all and (max-width: 500px) {
+   .sectionColor {
+      margin-bottom: 0;
+   }
+}
 
 .skillIcon {
    margin-left: 10px;
@@ -747,7 +762,7 @@ transition:all linear 0.5s;
 }
 .closeButton {
    position:fixed;
-   top:250px;
+   top:130px;
    right: 10%;
 }
 @media all and (max-width: 1024px) {
