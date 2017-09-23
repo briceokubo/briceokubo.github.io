@@ -148,6 +148,7 @@ hr.section-divider:before {
 @media all and (max-width: 800px) {
    .myTitle {
       visibility: hidden;
+      padding-left: 0;
    }
 }
 
