@@ -7,7 +7,7 @@ h1, h2, h3 {
    padding-bottom: 18px;
 }
 
-p, span, h4, h5 {
+p, span, h4, h5, ul, li {
    font-family: 'Roboto', sans-serif;
 }
 
@@ -680,7 +680,7 @@ transition:all linear 0.5s;
    text-align: center;
    color: white;
    padding-bottom: 0px;
-   padding-top: 80px;
+   padding-top: 50px;
 }
 
 .MCsubtitle {
@@ -793,5 +793,15 @@ transition:all linear 0.5s;
 .inactive {
    color: #F8F8F8;
    transition:all linear 0.3s;
+}
+
+.white {
+   color: white;
+}
+
+.MCheader {
+   text-align: center;
+   color: white;
+   padding-bottom: 0px;
 }
 /* animate DEMO*/
