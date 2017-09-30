@@ -804,4 +804,12 @@ transition:all linear 0.5s;
    color: white;
    padding-bottom: 0px;
 }
+
+.padTop {
+   padding-top: 50px;
+}
+
+.oldLogo {
+   text-align: center;
+}
 /* animate DEMO*/
