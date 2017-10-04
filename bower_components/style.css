@@ -812,4 +812,11 @@ transition:all linear 0.5s;
 .oldLogo {
    text-align: center;
 }
+
+#newDirection {
+   max-width: 800px;
+   color: #40445E;
+   text-align: center;
+   padding-top: 25px;
+}
 /* animate DEMO*/
