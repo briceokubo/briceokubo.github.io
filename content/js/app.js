@@ -7,7 +7,7 @@ app.controller("workCtrl", function ($scope) {
       { image: "content/images/homepage/CN2.png", title: "Carbon Neutral", description: "Case study of UI/UX web app", a: "CNchallenge.html", tag: "Web Design", color: "tagWD", tag2: "", color2: "", workBtn: "views/workBtn/CNbutton.html"},
       { image: "content/images/homepage/hikealoha2.svg", title: "Hike Aloha", description: "UI/UX and Branding for 24-hour hackathon", a: "hikealoha.html", tag: "Mobile Design", color: "tagMD", tag2: "Branding", color2: "tagB", workBtn: "views/workBtn/HAbutton.html"},
       { image: "content/images/homepage/techublogo.png", title: "TecHub Logo", description: "Creating a new brand for Computer department", a: "techublogo.html", tag: "Branding", color: "tagB", tag2: "", color2: "", workBtn: "views/workBtn/THLbutton.html"},
-      { image: "content/images/homepage/deependHero.svg", title: "A Beauty Website", description: "Web design for beauty products", a: "deepend.html", tag: "Web Design", color: "tagWD", tag2: "Mobile Design", color2: "tagMD", workBtn: "views/workBtn/ABbutton.html"},
+      { image: "content/images/homepage/AB.svg", title: "A Beauty Website", description: "Web design for beauty products", a: "deepend.html", tag: "Web Design", color: "tagWD", tag2: "Mobile Design", color2: "tagMD", workBtn: "views/workBtn/ABbutton.html"},
    ];
 })
 
