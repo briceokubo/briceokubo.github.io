@@ -767,17 +767,21 @@ transition:all linear 0.5s;
    width: 70px;
    margin: 10px 10px 0 0;
 }
+.closeOut {
+   float: right;
+   padding-right: 5%;
+}
+@media all and (max-width: 1024px) {
+   .closeOut {
+      float: left;
+      padding-left: 2%;
+   }
+}
 .closeButton {
    position:fixed;
    top:130px;
-   right: 10%;
 }
-@media all and (max-width: 1024px) {
-   .closeButton {
-      right: 0;
-      left: 2%;
-   }
-}
+
 
 
 .footIcon {
