@@ -273,7 +273,7 @@ Secondary Fixed Navigation
   /* mobile first - secondary navigation hidden by default, triggered by tap/click on .cd-secondary-nav-trigger*/
   position: fixed;
   width: 90%;
-  max-width: 400px;
+  /*max-width: 400px;*/
   right: 5%;
   top: 20px;
   border-radius: 0.25em;
@@ -314,6 +314,7 @@ Secondary Fixed Navigation
   padding: 2em;
   border-bottom: 1px solid #092645;
   color: #f0eee1;
+  text-align: center;
 }
 .cd-secondary-nav li:last-child a {
   border-bottom: none;
