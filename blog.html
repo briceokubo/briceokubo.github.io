@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+   <head>
+      <meta charset="UTF-8">
+   	<meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Brice Okubo | UX & Web Designer</title>
+      <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="bower_components/card.css">
+      <link rel="stylesheet" type="text/css" href="bower_components/style.css">
+   	<link rel="stylesheet" href="content/css/navStyle.css"> <!-- Resource style -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+      <link rel="shortcut icon" href="content/images/Blogo.png" type="image/x-icon" />
+   </head>
+   <body>
+      <div class="cd-secondary-nav">
+   		<a href="#0" class="cd-secondary-nav-trigger">Menu<span>Menu</span></a> <!-- button visible on small devices -->
+
+   		<nav>
+   			<ul>
+               <li><a><button class="navButton active" ng-click="offerSection()"><b>About</b></button></a></li>
+               <li><a><button class="navButton inactive" ng-click="workSection()"><b>Work</b></button></a></li>
+               <li><a><button class="navButton inactive" ng-click="resumeSection()"><b>Resume</b></button></a></li>
+               <li><a><button class="navButton inactive" ng-click="contactSection()"><b>Contact</b></button></a></li>
+   			</ul>
+   		</nav>
+
+
+      <div class="container sectionColor shadow">
+         <img class="img-responsive" src="content/images/blog/blogHero@2x.png">
+         <div class="blogBody">
+            <div class="row">
+               <div class="col-md-offset-1 col-md-4">
+                  <img src="content/images/homepage/portrait.svg" class="img-circle img-responsive" height="250px" width="250px">
+               </div>
+               <div class=" col-md-6">
+                  <h1>Welcome To My Blogspace</h1>
+                  <h4>This is where ill be posting my to-do-list for day to day task, articles i have read and reviewed .Hopefully keep me in track for my own personal growth!!! </h4>
+               </div>
+            </div><!-- row -->
+            <hr>
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="col-md-4">
+                     <img src="http://via.placeholder.com/300x300">
+                  </div>
+                  <div class="col-md-8">
+                     <h2>Sample Title</h2>
+                     <h4>tags</h4>
+                     <p>description</p>
+                     <button>View Article</button>
+
+                  </div>
+               </div>
+            </div><!-- row -->
+            <hr>
+            <!--dub -->
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="col-md-4">
+                     <img src="http://via.placeholder.com/300x300">
+                  </div>
+                  <div class="col-md-8">
+                     <h2>Sample Title</h2>
+                     <h4>tags</h4>
+                     <p>description</p>
+                     <button>View Article</button>
+
+                  </div>
+               </div>
+            </div><!-- row -->
+            <hr>
+
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="col-md-4">
+                     <img src="http://via.placeholder.com/300x300">
+                  </div>
+                  <div class="col-md-8">
+                     <h2>Sample Title</h2>
+                     <h4>tags</h4>
+                     <p>description</p>
+                     <button>View Article</button>
+
+                  </div>
+               </div>
+            </div><!-- row -->
+            <hr>
+
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="col-md-4">
+                     <img src="http://via.placeholder.com/300x300">
+                  </div>
+                  <div class="col-md-8">
+                     <h2>Sample Title</h2>
+                     <h4>tags</h4>
+                     <p>description</p>
+                     <button>View Article</button>
+
+                  </div>
+               </div>
+            </div><!-- row -->
+            <hr>
+
+            <!--end of dub -->
+         </div>
+
+      </div>
+
+   <div ng-include="'views/homepage/footer.html'"></div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="content/js/main.js"></script> <!-- Resource jQuery -->
+   <script src="bower_components/angular/angular.js"></script>
+   <script src="bower_components/angular-animate/angular-animate.js"></script>
+   <script src="content/js/close.js"></script>
+   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+   <script src="content/js/app.js"></script>
+   <script src="content/js/animate.js"></script>
+   </body>
+</html>
