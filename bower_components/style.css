@@ -413,7 +413,7 @@ transition:all linear 0.5s;
 }
 
 .version {
-   padding-top: 25px;
+   padding-top: 10px;
 }
 .active {
    color: #F0555C;
