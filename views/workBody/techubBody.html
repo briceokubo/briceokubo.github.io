@@ -1,6 +1,5 @@
 <section class="techubBody" ng-app>
    <div class="titleSection">
-      <div ng-include="'views/nav.html'"></div>
       <div class="container">
          <div class="row">
             <div class="col-md-6">
@@ -13,26 +12,24 @@
                <p class="workSum">A website redesign to kickoff the launch of a new University of Hawaii Bookstore department</p>
                <a href="http://www.bookstore.hawaii.edu/manoa/techub"><span>http://www.bookstore.hawaii.edu/manoa/techub</span></a>
             </div>
-         </div>
-      </div>
-   </div>
+         </div> <!--row-->
+      </div> <!-- container -->
+   </div> <!-- titleSection-->
    <div class="myWorkBody container">
-
-            <h2 class="workHeader">Project Overview</h2>
-            <p class="HAtext">
-               University of Hawaii Manoa Bookstore is now allowing students, faculty and staff to purchase Apple products with educational pricing through their E-commerce site. With the big news, the computer department rebrands itself to TecHub and a complete redesign of the department webpage.
-            </p>
-            <h2 class="workHeader">Goals</h2>
-            <p class="HAtext">
-               With direction from store managers and personal experience using the computer department webpage, our team set out to accomplish three goals:
-            </p>
-            <ul class="HAtext">
-               <li>Simple navigation</li>
-	            <li>Consistent design with other department webpages</li>
-	            <li>Easily maintainable</li>
-            </ul>
-
-   </div>
+      <h2 class="workHeader">Project Overview</h2>
+      <p class="HAtext">
+         University of Hawaii Manoa Bookstore is now allowing students, faculty and staff to purchase Apple products with educational pricing through their E-commerce site. With the big news, the computer department rebrands itself to TecHub and a complete redesign of the department webpage.
+      </p>
+      <h2 class="workHeader">Goals</h2>
+      <p class="HAtext">
+         With direction from store managers and personal experience using the computer department webpage, our team set out to accomplish three goals:
+      </p>
+      <ul class="HAtext">
+         <li>Simple navigation</li>
+	      <li>Consistent design with other department webpages</li>
+	      <li>Easily maintainable</li>
+      </ul>
+   </div> <!--myWorkBody-->
    <div class="mobile">
       <div class="container">
          <h1 class="MCtitle">Wireframe</h1>
@@ -43,43 +40,36 @@
          <p class="HAtext white">
             Based on my research, we were able to validate the three main sections that users are frequently targeting and able to place them in a quick link on the homepage for direct access.
          </p>
-
          <img class="img-responsive" src="content/images/work/techub/wireframes2@2x.png">
          <h1 class="MCheader">Mock Up</h1>
          <h3 class="MCsubtitle">Desktop </h3>
          <img class="img-responsive" src="content/images/work/techub/mockup@2x.png">
-      </div>
-   </div>
-
-
-         <div class="container">
-            <h2 class="workHeader padTop">Design Solution</h2>
-            <p class="HAtext">
-               Though not all computer products are available through the e-commerce store, we are required to display other products through various methods. With the constant change of products that we bring in, the marketing department is not able to keep up-to-date. I created a solution that utilizes the old department’s CMS to host the PDF pages that will display the non-e-commerce products linked from the new TecHub page.
-            </p>
-            <br>
-         </div>
-
-      <div class="row">
-         <div class="col-md-4 col-md-offset-4">
-            <img class="img-responsive" src="content/images/work/techub/windowComputer.png">
-         </div>
-      </div>
-
-      <div class="container">
-         <h2 class="workHeader padTop">Conclusion</h2>
-         <p class="HAtext">
-            The redesign TecHub has received praise from students, faculty, and staff. The new feature to purchase an Apple computer from the bookstore website has been positively received by parents and fiscal officers due to convenience and streamline process; an improvement from credit card transactions over the phone.
-         </p>
-      </div>
-
+      </div> <!--container-->
+   </div> <!--mobile-->
+   <div class="container">
+      <h2 class="workHeader padTop">Design Solution</h2>
+      <p class="HAtext">
+         Though not all computer products are available through the e-commerce store, we are required to display other products through various methods. With the constant change of products that we bring in, the marketing department is not able to keep up-to-date. I created a solution that utilizes the old department’s CMS to host the PDF pages that will display the non-e-commerce products linked from the new TecHub page.
+      </p>
       <br>
-
-   <div ng-include="'views/archive.html'"></div>
+   </div> <!--container -->
+   <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+         <img class="img-responsive" src="content/images/work/techub/windowComputer.png">
+      </div>
+   </div> <!--row-->
+   <div class="container">
+      <h2 class="workHeader padTop">Conclusion</h2>
+      <p class="HAtext">
+         The redesign TecHub has received praise from students, faculty, and staff. The new feature to purchase an Apple computer from the bookstore website has been positively received by parents and fiscal officers due to convenience and streamline process; an improvement from credit card transactions over the phone.
+      </p>
+   </div> <!--container-->
+   <br>
+   <div ng-include="'views/archive.html'"></div> <!--archive-->
    </div><!--container -->
    <div class="closeOut">
       <div class="closeButton">
-            <img src="content/images/xbutton.svg" class="img-circle shadow xbutton" alt="" ng-click="workSection()">
-      </div>
-   </div>
+         <img src="content/images/xbutton.svg" class="img-circle shadow xbutton" alt="" ng-click="workSection()">
+      </div> <!--closeButton-->
+   </div> <!--closeOut-->
 </section>

@@ -834,4 +834,8 @@ transition:all linear 0.5s;
       padding-left: 25px;
    }
 }
-/* animate DEMO*/
+/* blog section*/
+
+.blogBody {
+   padding: 25px 0 25px 0;
+}

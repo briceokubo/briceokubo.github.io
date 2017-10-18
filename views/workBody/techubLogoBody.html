@@ -1,7 +1,5 @@
 <section  ng-app>
-   <!-- Title Section-->
    <div class="titleSection" autoscroll="true">
-      <div ng-include="'views/nav.html'"></div>
       <div class="container">
          <div class="row">
             <div class="col-md-6">
@@ -16,54 +14,43 @@
                </p>
                <a href="https://play.google.com/store/apps/details?id=com.hikealoha.app&hl=en"><span>Hike Aloha</span></a>
             </div>
-         </div>
-      </div>
-   </div>
+         </div> <!--row-->
+      </div> <!--container-->
+   </div> <!--titleSection-->
    <!-- Body-->
    <div class="myWorkBody container">
-            <h2 class="workHeader">What is TecHub?</h2>
-            <p class="HAtext">
-               TecHub is a newly branded redesign of the old Computer Department in the University of Hawai’i Bookstore. The department specializes in technology retail, repair service, and quick IT support for students, faculty, and staff.
-            </p>
-      </div>
-      <div class="mobile">
-         <div class="container">
-            <div class="row">
-               <h1 class="MCtitle">Experimental</h1>
-               <h3 class="MCsubtitle">Sketches & Mockups</h3>
-               <p class="HAtext white">
-                  The mock-ups consisted of playing with different style of logos in order to get a better idea of what the bookstore was looking for, including shapes, fonts, and colors.
-               </p>
-               <div class="col-md-6">
-                  <img class="img-responsive" src="content/images/work/techublogo/sketch.png">
-               </div>
-               <div class="col-md-6">
-                  <img class="img-responsive" src="content/images/work/techublogo/sketch.svg">
-               </div>
-            </div><!--row -->
-            <div class="section-divider">
-               <hr class="section-divider">
-            </div>
-         </div>
-      </div>
-
+      <h2 class="workHeader">What is TecHub?</h2>
+      <p class="HAtext">
+         TecHub is a newly branded redesign of the old Computer Department in the University of Hawai’i Bookstore. The department specializes in technology retail, repair service, and quick IT support for students, faculty, and staff.
+      </p>
+   </div> <!--myWorkBody-->
+   <div class="mobile">
       <div class="container">
-
-            <div class="row">
-               <div class="col-md-6 col-md-offset-3">
-                  <h1 id="newDirection">New Direction</h1>
-                  <img class="img-responsive oldLogo" src="content/images/work/techublogo/test.svg">
-               </div>
-            </div>
-
-            <p class="HAtext">
-               After experimentation with the University logo, the bookstore wanted to utilize the H logo for  easy recognition. We gained permission to use and modify the H logo, avoiding copyright issues and overall achieving an identity for TecHub.
+         <div class="row">
+            <h1 class="MCtitle">Experimental</h1>
+            <h3 class="MCsubtitle">Sketches & Mockups</h3>
+            <p class="HAtext white">
+               The mock-ups consisted of playing with different style of logos in order to get a better idea of what the bookstore was looking for, including shapes, fonts, and colors.
             </p>
-
-
-
-
-
+            <div class="col-md-6">
+               <img class="img-responsive" src="content/images/work/techublogo/sketch.png">
+            </div>
+            <div class="col-md-6">
+               <img class="img-responsive" src="content/images/work/techublogo/sketch.svg">
+            </div>
+         </div><!--row -->
+      </div> <!--container-->
+   </div> <!--mobile-->
+   <div class="container">
+      <div class="row">
+         <div class="col-md-6 col-md-offset-3">
+            <h1 id="newDirection">New Direction</h1>
+            <img class="img-responsive oldLogo" src="content/images/work/techublogo/test.svg">
+         </div>
+      </div> <!--row-->
+      <p class="HAtext">
+         After experimentation with the University logo, the bookstore wanted to utilize the H logo for  easy recognition. We gained permission to use and modify the H logo, avoiding copyright issues and overall achieving an identity for TecHub.
+      </p>
       <div class="row">
          <div class="col-md-6">
             <img class="img-responsive" src="content/images/work/techublogo/mockup1.svg">
@@ -72,9 +59,6 @@
             <img class="img-responsive" src="content/images/work/techublogo/mockup2.svg">
          </div>
       </div><!--row -->
-      <div class="section-divider">
-         <hr class="section-divider">
-      </div>
       <div class="row">
          <div class="col-md-6">
             <h2 class="workHeader">Conclusion</h2>
@@ -85,12 +69,12 @@
          <div class="col-md-6">
             <img class="img-responsive" src="content/images/work/techublogo/finalLogo.svg">
          </div>
-      </div>
-<div ng-include="'views/archive.html'"></div>
+      </div> <!--row-->
+      <div ng-include="'views/archive.html'"></div> <!--archive-->
    </div><!--container -->
    <div class="closeOut">
       <div class="closeButton">
-            <img src="content/images/xbutton.svg" class="img-circle shadow xbutton" alt="" ng-click="workSection()">
-      </div>
-   </div>
+         <img src="content/images/xbutton.svg" class="img-circle shadow xbutton" alt="" ng-click="workSection()">
+      </div> <!--closeButton-->
+   </div> <!--closeOut-->
 </section>

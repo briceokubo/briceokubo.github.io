@@ -4,48 +4,38 @@
          <h1 id="workTitle">My Work</h1>
       </div>
    </div>
-
-
-
 <!-- 3 cards per row   ------------------------------->
-<div class="container">
-<div class="row">
-   <div ng-repeat="work in works">
-      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 cardMargin">
-         <div class="workCard card">
-            <div class="wrapper">
-            <img src="{{work.image}}" class="img-responsive cardImage" height="100%" width="100%">
-            <div class="cardDesc">
-               <div class="data">
-                  <div class="content">
-
-                     <div class="row">
-                        <div class="col-md-2 col-xs-2 col-sm-2  col-lg-2 col-xl-2"></div>
-                        <div class="col-md-8 col-xs-8 col-sm-8  col-lg-8 col-xl-8">
-                           <h3 class="title">{{work.title}}</h3>
-                        </div>
-                        <div class="col-md-2 col-xs-2 col-sm-2  col-lg-2 col-xl-2">
-                           <div class="arrowUp">
-                              <span class="glyphicon glyphicon-chevron-up"></span>
-                           </div>
-                        </div>
-                     </div><!--row -->
-                     <p class="text">{{work.description}}</p>
-                     <div ng-include='work.workBtn'></div>
-
-                  </div><!--contentBg -->
-               </div><!--data -->
-            </div>
-         </div>
-         </div>
-      </div>
-   </div><!--ng repeat -->
-</div><!--row  -->
-</div>
-
-<script src="content/js/workBtn.js"></script>
-
-
-
-
+   <div class="container">
+      <div class="row">
+         <div ng-repeat="work in works">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12 cardMargin">
+               <div class="workCard card">
+                  <div class="wrapper">
+                     <img src="{{work.image}}" class="img-responsive cardImage" height="100%" width="100%">
+                     <div class="cardDesc">
+                        <div class="data">
+                           <div class="content">
+                              <div class="row">
+                                 <div class="col-md-2 col-xs-2 col-sm-2  col-lg-2 col-xl-2"></div>
+                                 <div class="col-md-8 col-xs-8 col-sm-8  col-lg-8 col-xl-8">
+                                    <h3 class="title">{{work.title}}</h3>
+                                 </div>
+                                 <div class="col-md-2 col-xs-2 col-sm-2  col-lg-2 col-xl-2">
+                                    <div class="arrowUp">
+                                       <span class="glyphicon glyphicon-chevron-up"></span>
+                                    </div>
+                                 </div>
+                              </div><!--row -->
+                              <p class="text">{{work.description}}</p>
+                              <div ng-include='work.workBtn'></div>
+                           </div><!--content -->
+                        </div><!--data -->
+                     </div><!-- cardDesc-->
+                  </div><!-- wrapper -->
+               </div> <!-- workCard -->
+            </div> <!-- card margin -->
+         </div><!--ng repeat -->
+      </div><!--row  -->
+   </div><!-- container -->
+   <script src="content/js/workBtn.js"></script>
 </section>

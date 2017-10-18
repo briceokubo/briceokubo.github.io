@@ -1,85 +1,67 @@
 <section ng-controller="workCtrl" id="work">
    <hr>
-   <!-- <div class="workArchive"> OLD Controller code
-      <div class="row">
-         <div ng-repeat="work in works">
-            <a href="{{work.a}}">
+   <div class="workArchive">
+       <div class="row">
+         <a ng-click="MCwork()">
             <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
                <div class="archiveImg">
-                  <img src="{{work.image}}" class="img-responsive img-rounded shadow"  >
+                  <img src="content/images/homepage/MCicon2.svg" class="img-responsive img-rounded shadow" alt="">
                </div>
                <div class="archiveTitle">
-                  <h4>{{work.title}}</h4>
+                  <h4>Modern Compass</h4>
                </div>
-            </div><
-            </a>
-         </div>
-      </div>
-   </div> -->
-
-<div class="workArchive">
- <div class="row">
-   <a ng-click="MCwork()">
-      <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
-         <div class="archiveImg">
-            <img src="content/images/homepage/MCicon2.svg" class="img-responsive img-rounded shadow" alt="">
-         </div>
-         <div class="archiveTitle">
-            <h4>Modern Compass</h4>
-         </div>
-      </div>
-   </a>
-   <a ng-click="THwork()">
-      <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
-         <div class="archiveImg">
-            <img src="content/images/homepage/techub2.png" class="img-responsive img-rounded shadow"  alt="">
-         </div>
-         <div class="archiveTitle">
-            <h4>TecHub</h4>
-         </div>
-      </div>
-   </a>
-   <a ng-click="CNwork()">
-      <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
-         <div class="archiveImg">
-            <img src="content/images/homepage/CN2.png" class="img-responsive img-rounded shadow"  alt="">
-         </div>
-         <div class="archiveTitle">
-            <h4>Carbon Neutral</h4>
-         </div>
-      </div>
-   </a>
-   <a ng-click="HAwork()">
-      <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
-         <div class="archiveImg">
-            <img src="content/images/homepage/hikealoha2.svg" class="img-responsive img-rounded shadow"  alt="">
-         </div>
-         <div class="archiveTitle">
-            <h4>Hike Aloha</h4>
-         </div>
-      </div>
-   </a>
-   <a ng-click="THLwork()">
-      <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
-         <div class="archiveImg">
-            <img src="content/images/homepage/techublogo.png" class="img-responsive img-rounded shadow"  alt="">
-         </div>
-         <div class="archiveTitle">
-            <h4>TecHub Logo</h4>
-         </div>
-      </div>
-   </a>
-   <a ng-click="ABwork()">
-      <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
-         <div class="archiveImg">
-            <img src="content/images/homepage/AB.svg" class="img-responsive img-rounded shadow"  alt="">
-         </div>
-         <div class="archiveTitle">
-            <h4>A Beauty Website</h4>
-         </div>
-      </div>
-   </a>
-
-</div>
-</div>
+            </div>
+         </a>
+         <a ng-click="THwork()">
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+               <div class="archiveImg">
+                  <img src="content/images/homepage/techub2.png" class="img-responsive img-rounded shadow"  alt="">
+               </div>
+               <div class="archiveTitle">
+                  <h4>TecHub</h4>
+               </div>
+            </div>
+         </a>
+         <a ng-click="CNwork()">
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+               <div class="archiveImg">
+                  <img src="content/images/homepage/CN2.png" class="img-responsive img-rounded shadow"  alt="">
+               </div>
+               <div class="archiveTitle">
+                  <h4>Carbon Neutral</h4>
+               </div>
+            </div>
+         </a>
+         <a ng-click="HAwork()">
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+               <div class="archiveImg">
+                  <img src="content/images/homepage/hikealoha2.svg" class="img-responsive img-rounded shadow"  alt="">
+               </div>
+               <div class="archiveTitle">
+                  <h4>Hike Aloha</h4>
+               </div>
+            </div>
+         </a>
+         <a ng-click="THLwork()">
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+               <div class="archiveImg">
+                  <img src="content/images/homepage/techublogo.png" class="img-responsive img-rounded shadow"  alt="">
+               </div>
+               <div class="archiveTitle">
+                  <h4>TecHub Logo</h4>
+               </div>
+            </div>
+         </a>
+         <a ng-click="ABwork()">
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+               <div class="archiveImg">
+                  <img src="content/images/homepage/AB.svg" class="img-responsive img-rounded shadow"  alt="">
+               </div>
+               <div class="archiveTitle">
+                  <h4>A Beauty Website</h4>
+               </div>
+            </div>
+         </a>
+      </div><!-- row -->
+   </div><!--workArchive -->
 </section>
