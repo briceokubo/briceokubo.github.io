@@ -1,4 +1,6 @@
-/*-- Global -- */
+/*-- -----------
+		Global
+-------------- -- */
 body {
    background-image: url("images/hero3.svg");
 }
@@ -11,105 +13,13 @@ p, span, h4, h5, ul, li {
    font-family: 'Roboto', sans-serif;
 }
 
-hr.section-divider {
-    margin-top: 52px;
-    margin-bottom: 42px;
-}
-
-hr.section-divider {
-    display: block;
-    border: 0;
-    text-align: center;
-}
-
-hr {
-    box-sizing: content-box;
-    height: 0;
-}
-
-hr.section-divider:before {
-    content: '...';
-    display: inline-block;
-    margin-left: .6em;
-    color: rgba(0,0,0,.6);
-    position: relative;
-    top: -30px;
-}
-
-hr.section-divider:before {
-    --x-height-multiplier: 0.363;
-    --baseline-multiplier: 0.157;
-    font-family: medium-content-slab-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 28px;
-    letter-spacing: .6em;
-}
-
 .shadow {
    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
-/*-- Nav.html -- */
-.contactBtn {
-   background: #F2545B;
-   color: white;
-   padding: 15px 32px;
-   border: none;
-   text-align: center;
-   display: inline-block;
-   font-size: 16px;
-   border-radius: 3px;
-   margin-right: 10px;
-   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-@media all and (max-width: 500px) {
-   .contactBtn {
-      width: 100%;
-   }
-}
-.btn_hover {
-   background: #F37678;
-   color: white;
-   padding: 20px 35px;
-   border: none;
-   text-align: center;
-   display: inline-block;
-   font-size: 16px;
-   border-radius: 3px;
-   margin-right: 10px;
-   margin-top: -10px;
-   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
-}
-.navbar {
-   margin-bottom: 0px;
-}
-
-.navbar-default {
-   background: none;
-   border: none;
-   border-radius: 0px;
-}
-
-.logo {
-   width: 50px;
-   height: 50px;
-   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
-.logo_hover {
-   height: 60px;
-   width: 60px;
-   margin-top: -10px;
-   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-
-.navPlace {
-   padding: 40px 0 0 0;
-}
-
+/*-- -----------
+		Nav
+-------------- -- */
 .navButton {
    margin: 0 10px 0 10px;
    background: none;
@@ -117,7 +27,10 @@ hr.section-divider:before {
    color: white;
 }
 
-/* -- Hero -- */
+
+/*-- -----------
+		Hero
+-------------- -- */
 .hero {
    background-image: url("images/hero3.svg");
    width: 100%;
@@ -168,16 +81,7 @@ hr.section-divider:before {
       color: #434359;
    }
 }
-#heroName {
-   padding: 0px;
-   font-size: 50px;
-   letter-spacing: 3px;
-   color: #434359;
-}
 
-#heroDesc {
-   color: #434359;
-}
 .heroSpace {
    padding-top: 25px;
    padding-bottom: 25px;
@@ -189,7 +93,19 @@ hr.section-divider:before {
    }
 }
 
-/* -- -------------------------------------------Offer -- */
+#heroName {
+   padding: 0px;
+   font-size: 50px;
+   letter-spacing: 3px;
+   color: #434359;
+}
+
+#heroDesc {
+   color: #434359;
+}
+/*-- -----------
+		offer
+-------------- -- */
 .offer {
    background-color: #FAFAFA;
    width: 100%;
@@ -232,7 +148,10 @@ hr.section-divider:before {
    /*width: 30%;
    height: 30%;*/
 }
-/* -- ------------------------------------------------- About ----------------------- -- */
+
+/*-- -----------
+		About
+-------------- -- */
 .know {
    background-color: #F8F8F8;
    width: 100%;
@@ -309,21 +228,22 @@ transition:all linear 0.5s;
       padding-left: 30%;
    }
 }
-/*-- --------------------------------------Work section --*/
+
+/*-- -----------
+		Work
+-------------- -- */
+
 .work {
-   /*background-color: #84D1DD;*/
-   /* background-image: linear-gradient( 45deg, #5EFCE8 0%, #736EFE 100%); */
    width: 100%;
    margin: 50px, 50px, 50px, 50px;
    -webkit-transition:all linear 0.5s;
-transition:all linear 0.5s;
+	transition:all linear 0.5s;
 }
 
 #workTitle {
    padding-bottom: 0px;
    color: #434359;
 }
-
 .paper {
    padding: 20px 0 20px 0;
    text-align: center;
@@ -334,11 +254,6 @@ transition:all linear 0.5s;
       text-align: center;
    }
 }
-#title {
-   color: #424242;
-   padding-bottom: 0px;
-}
-
 .title {
    padding-bottom: 3px;
    color: #434359;
@@ -375,19 +290,6 @@ transition:all linear 0.5s;
    .cardImg {
       border-radius:5px 5px 0px 0px;
    }
-}
-
-.workDesc {
-   padding: 0px 2px 0px 0px;
-}
-@media all and (max-width: 500px) {
-   .workDesc {
-      padding: 10px 20px 10px 20px;
-   }
-}
-
-.cardInfo {
-   height: 100px;
 }
 
 .workButton {
@@ -434,7 +336,7 @@ transition:all linear 0.5s;
    box-shadow: none;
    padding: 8px 0px 8px 0px;
 }
-/*-- -------------------------------testing for 4 cards a row --------------------------------------- --*/
+
 .workCard {
    width: 100%;
    height: 300px;
@@ -458,10 +360,11 @@ transition:all linear 0.5s;
 .cardDesc {
    text-align: center;
 }
-/* -- Contact -- */
+
+/*-- -----------
+		Contact
+-------------- -- */
 .contact {
-   /*background-color: #84D1DD;*/
-   /* background-image: linear-gradient( 135deg, #5EFCE8 0%, #736EFE 100%); */
    width: 100%;
    padding-bottom: 50px;
    padding-top: 50px;
@@ -488,8 +391,10 @@ transition:all linear 0.5s;
 #follow {
    text-align: center;
 }
-/* -- Footer -- */
 
+/*-- -----------
+		Footer
+-------------- -- */
 .myFooter {
    background-color: #0D1B2A;
    width: 100%;
@@ -501,8 +406,31 @@ transition:all linear 0.5s;
    margin-left: 0;
 }
 
+.footIcon {
+   height: 25px;
+   width: 60px;1
+   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
 
-/* -- Resume--*/
+.version {
+   padding-top: 25px;
+}
+.active {
+   color: #F0555C;
+   transition:all linear 0.3s;
+}
+
+.inactive {
+   color: #F8F8F8;
+   transition:all linear 0.3s;
+}
+
+.white {
+   color: white;
+}
+/*-- -----------
+		Resume
+-------------- -- */
 .resume {
    background-color: #F8F8F8;
    -webkit-transition:all linear 0.5s;
@@ -525,207 +453,13 @@ transition:all linear 0.5s;
    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
-/* -- My Work Page -- */
-.myWorkHero{
-   width: 100%;
-   background-color: #434359;
-   align-content: center;
-   text-align: center;
-   color: white;
-   padding-top: 24px;
-   padding-bottom: 24px;
+.resumePosition {
+   left: 5%;
 }
 
-@media all and (max-width: 500px) {
-   .myWorkHero {
-      width: 100%;
-      background-color: #434359;
-      align-content: center;
-      text-align: center;
-      color: white;
-      padding-top: 5px;
-   }
-}
-.MWbody {
-   background-color: #F8F8F8;
-}
-.MWtext {
-   background-color: white;
-}
-.MWcard {
-   background-color: white;
-   margin-bottom: 20px;
-   border-radius:5px 5px 5px 5px;
-
-}
-
-.MWinfo {
-   padding: 10px 25px 10px 10px;
-}
-.MWspace {
-   padding: 25px 50px 25px 50px;
-}
-@media all and (max-width: 500px) {
-   .MWspace {
-      padding: 25px 10px 10px 10px;
-   }
-}
-
-.MWicon {
-   border-radius:5px 0 0 5px;
-   height: 100%;
-   width: 100%;
-}
-@media all and (max-width: 500px) {
-   .MWicon {
-      border-radius:5px 5px 0 0;
-   }
-}
-.MWtitle {
-   color: #434359;
-   padding-bottom: 3px;
-}
-@media all and (max-width: 500px) {
-   .MWtitle {
-      text-align: center;
-   }
-}
-.MWdesc {
-   width: 100%;
-   height: 75px;
-}
-.tagArea {
-   padding-bottom: 10px;
-}
-.tagWD {
-   background-color: #0583BE;
-   color: white;
-   border-radius: 10px;
-   font-size: 12px;
-   padding: 2px 5px 2px 5px;
-}
-
-.tagB {
-   background-color: #F2545B;
-   color: white;
-   border-radius: 10px;
-   font-size: 12px;
-   padding: 2px 5px 2px 5px;
-}
-
-.tagMD {
-   background-color: #636281;
-   color: white;
-   border-radius: 10px;
-   font-size: 12px;
-   padding: 2px 5px 2px 5px;
-}
-
-/* -- Work Pages-- */
-.titleSection {
-   padding: 25px 0 25px 0;
-   background-color: #434359;
-   color: white;
-}
-
-.workImg {
-   margin-bottom: 20px;
-   max-width: 800px;
-   margin-left: auto;
-   margin-right: auto;
-}
-@media all and (max-width: 800px) {
-   .workImg {
-      max-width: 100%;
-      max-height: 100%;
-   }
-}
-.titleWork {
-   padding-bottom: 0px;
-}
-.myWorkBody {
-   padding-top: 50px;
-   padding-bottom: 50px;
-}
-
-.workSum {
-   font-size: 24px;
-   color: #F8F8F8;
-   font-weight:300;
-}
-
-.bigImg {
-   width: 80%;
-   height: 80%;
-}
-.workHero {
-   width: 100%;
-   background-color: #636281;
-   align-content: center;
-   text-align: center;
-   color: white;
-   padding-top: 24px;
-   padding-bottom: 24px;
-}
-@media all and (max-width: 500px) {
-   .workHero {
-      width: 100%;
-      background-color: #84D1DD;
-      align-content: center;
-      text-align: center;
-      color: #434359;
-      padding-top: 5px;
-   }
-}
-
-/* Modern Compass section */
-.mobile {
-   background-color: #434358;
-}
-
-.MCtitle {
-   text-align: center;
-   color: white;
-   padding-bottom: 0px;
-   padding-top: 50px;
-}
-
-.MCsubtitle {
-   text-align: center;
-   color: #5DDBA4;
-}
-
-.concept {
-   padding: 25px 10px 25px 10px;
-}
-
-/* Hike Aloha */
-.HAtext {
-   font-size: 19px;
-   line-height: 1.9;
-   color: #40445E;
-   max-width: 800px;
-   margin-left: auto;
-   margin-right: auto;
-}
-@media all and (max-width: 500px) {
-   .HAtext {
-      font-size: 16px;
-      line-height: 1.9;
-      color: #40445E;
-      max-width: auto;
-
-   }
-}
-
-.workHeader {
-   max-width: 800px;
-   margin-left: auto;
-   margin-right: auto;
-   color: #40445E;
-}
-/* Work Archive Section */
-
+/*-- -----------
+		Archive
+-------------- -- */
 .workArchive {
    padding: 25px 10px 25px 10px;
 }
@@ -736,26 +470,9 @@ transition:all linear 0.5s;
 .archiveImg{
    text-align: center;
 }
-
-/* demo */
-.resumePosition {
-   left: 5%;
-}
-.sectionColor {
-   background-color: #F8F8F8;
-   padding: 0;
-   margin-bottom: 25px;
-}
-@media all and (max-width: 500px) {
-   .sectionColor {
-      margin-bottom: 0;
-   }
-}
-
-.skillIcon {
-   margin-left: 10px;
-}
-
+/*-- -----------
+		Work Close Button
+-------------- -- */
 .xbutton {
    height: 50px;
    width: 50px;
@@ -782,33 +499,112 @@ transition:all linear 0.5s;
    position:fixed;
    top:130px;
 }
-
-
-
-.footIcon {
-   height: 25px;
-   width: 60px;1
-   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+/*-- -----------
+		My Work Global
+-------------- -- */
+.myWorkHero{
+   width: 100%;
+   background-color: #434359;
+   align-content: center;
+   text-align: center;
+   color: white;
+   padding-top: 24px;
+   padding-bottom: 24px;
 }
 
-.version {
-   padding-top: 25px;
+@media all and (max-width: 500px) {
+   .myWorkHero {
+      width: 100%;
+      background-color: #434359;
+      align-content: center;
+      text-align: center;
+      color: white;
+      padding-top: 5px;
+   }
 }
-
-.active {
-   color: #F0555C;
-   transition:all linear 0.3s;
-}
-
-.inactive {
-   color: #F8F8F8;
-   transition:all linear 0.3s;
-}
-
-.white {
+.titleSection {
+   padding: 25px 0 25px 0;
+   background-color: #434359;
    color: white;
 }
+.workImg {
+   margin-bottom: 20px;
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+}
+@media all and (max-width: 800px) {
+   .workImg {
+      max-width: 100%;
+      max-height: 100%;
+   }
+}
+.myWorkBody {
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
 
+.titleWork {
+   padding-bottom: 0px;
+}
+.workSum {
+   font-size: 24px;
+   color: #F8F8F8;
+   font-weight:300;
+}
+.mobile {
+   background-color: #434358;
+}
+
+.MCtitle {
+   text-align: center;
+   color: white;
+   padding-bottom: 0px;
+   padding-top: 50px;
+}
+
+.MCsubtitle {
+   text-align: center;
+   color: #5DDBA4;
+}
+
+.concept {
+   padding: 25px 10px 25px 10px;
+}
+.HAtext {
+   font-size: 19px;
+   line-height: 1.9;
+   color: #40445E;
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+}
+@media all and (max-width: 500px) {
+   .HAtext {
+      font-size: 16px;
+      line-height: 1.9;
+      color: #40445E;
+      max-width: auto;
+
+   }
+}
+
+.workHeader {
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   color: #40445E;
+}
+.sectionColor {
+   background-color: #F8F8F8;
+   padding: 0;
+   margin-bottom: 25px;
+}
+@media all and (max-width: 500px) {
+   .sectionColor {
+      margin-bottom: 0;
+   }
+}
 .MCheader {
    text-align: center;
    color: white;
@@ -817,10 +613,6 @@ transition:all linear 0.5s;
 
 .padTop {
    padding-top: 50px;
-}
-
-.oldLogo {
-   text-align: center;
 }
 
 #newDirection {
@@ -834,7 +626,13 @@ transition:all linear 0.5s;
       padding-left: 25px;
    }
 }
-/* blog section*/
+.white {
+   color: white;
+}
+
+/*-- -----------
+		My Blog
+-------------- -- */
 
 .blogBody {
    padding: 25px 0 25px 0;
