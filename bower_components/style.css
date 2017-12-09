@@ -637,3 +637,46 @@ transition:all linear 0.5s;
 .blogBody {
    padding: 25px 0 25px 0;
 }
+
+
+/* Demo Section */
+
+.demoHero {
+   margin-top: 50px;
+   padding: 50px 0 50px 0;
+   text-align: center;
+}
+
+.demoWork {
+   padding: 50px 0 50px 0;
+   background-color: #FAFAFA;
+}
+
+.demoCard {
+   margin: 15px 0 15px 0;
+}
+
+.demoLogo {
+   height: 40px;
+   width: 40px;
+}
+
+.nav-color {
+   background-color: #42415A;
+}
+
+.navbar {
+   margin-bottom: 0px;
+   border: 0;
+}
+
+#demoBtn {
+   background-color: #F0555E;
+   border-radius: 12px;
+   border: 0;
+   padding: 10px;
+}
+
+#demoBtn > a {
+   color: white;
+}
