@@ -641,11 +641,6 @@ transition:all linear 0.5s;
 
 /* Demo Section */
 
-.demoHero {
-   margin-top: 50px;
-   padding: 50px 0 50px 0;
-   text-align: center;
-}
 
 .demoWork {
    padding: 50px 0 50px 0;
@@ -679,4 +674,23 @@ transition:all linear 0.5s;
 
 #demoBtn > a {
    color: white;
+}
+
+.navbar-right {
+   margin-top: 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+   color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+   color: #EE575F;
+}
+
+/*demo about me */
+
+.aboutWhite {
+   background-color: white;
+   padding: 100px 0 100px 0;
 }
