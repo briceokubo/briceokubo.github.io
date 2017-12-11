@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Brice Okubo | About</title>
+      <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="bower_components/card.css">
+      <link rel="stylesheet" type="text/css" href="bower_components/style.css">
+      <link rel="stylesheet" href="content/css/navStyle.css"> <!-- Resource style -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+      <link rel="shortcut icon" href="content/images/Blogo.png" type="image/x-icon" />
+   </head>
+   <body>
+      <!-- Navbar section-->
+      <nav class="navbar navbar-default navbar-fixed-top">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse nav-color" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav">
+            <li><a href="/"><img src="content/images/BLogo.svg" class="img-circle demoLogo"/></a></li>
+         </ul>
+         <div class="container">
+         <ul class="nav navbar-nav navbar-right">
+            <li><a href="demo.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+         </ul>
+         </div>
+      </div><!-- /.navbar-collapse -->
+      </nav>
+      <!-- Content  -->
+      <section class="techubBody" ng-app>
+         <div class="titleSection">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6">
+                     <img class="img-responsive" src="content/images/work/techub/techubWork.png">
+                  </div>
+                  <div class="col-md-6">
+                     <h1 class="titleWork">TecHub</h1>
+                     <h4>E-Commerce Website - November 2016</h4>
+                     <h4>Role : Web Designer</h4>
+                     <p class="workSum">A website redesign to kickoff the launch of a new University of Hawaii Bookstore department</p>
+                     <a href="http://www.bookstore.hawaii.edu/manoa/techub"><span>http://www.bookstore.hawaii.edu/manoa/techub</span></a>
+                  </div>
+               </div> <!--row-->
+            </div> <!-- container -->
+         </div> <!-- titleSection-->
+         <div class="myWorkBody container">
+            <h2 class="workHeader">Project Overview</h2>
+            <p class="HAtext">
+               University of Hawaii Manoa Bookstore is now allowing students, faculty and staff to purchase Apple products with educational pricing through their E-commerce site. With the big news, the computer department rebrands itself to TecHub and a complete redesign of the department webpage.
+            </p>
+            <h2 class="workHeader">Goals</h2>
+            <p class="HAtext">
+               With direction from store managers and personal experience using the computer department webpage, our team set out to accomplish three goals:
+            </p>
+            <ul class="HAtext">
+               <li>Simple navigation</li>
+      	      <li>Consistent design with other department webpages</li>
+      	      <li>Easily maintainable</li>
+            </ul>
+         </div> <!--myWorkBody-->
+         <div class="mobile">
+            <div class="container">
+               <h1 class="MCtitle">Wireframe</h1>
+               <h3 class="MCsubtitle">Desktop </h3>
+               <p class="HAtext white">
+                  My focus was providing simple interface that will help guide users to the right section they are targeting. I did some initial research on the target users, on which products and questions are frequently asked via in person and on telephone.
+               </p>
+               <p class="HAtext white">
+                  Based on my research, we were able to validate the three main sections that users are frequently targeting and able to place them in a quick link on the homepage for direct access.
+               </p>
+               <img class="img-responsive" src="content/images/work/techub/wireframes2@2x.png">
+               <h1 class="MCheader">Mock Up</h1>
+               <h3 class="MCsubtitle">Desktop </h3>
+               <img class="img-responsive" src="content/images/work/techub/mockup@2x.png">
+            </div> <!--container-->
+         </div> <!--mobile-->
+         <div class="container">
+            <h2 class="workHeader padTop">Design Solution</h2>
+            <p class="HAtext">
+               Though not all computer products are available through the e-commerce store, we are required to display other products through various methods. With the constant change of products that we bring in, the marketing department is not able to keep up-to-date. I created a solution that utilizes the old department’s CMS to host the PDF pages that will display the non-e-commerce products linked from the new TecHub page.
+            </p>
+            <br>
+         </div> <!--container -->
+         <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+               <img class="img-responsive" src="content/images/work/techub/windowComputer.png">
+            </div>
+         </div> <!--row-->
+         <div class="container">
+            <h2 class="workHeader padTop">Conclusion</h2>
+            <p class="HAtext">
+               The redesign TecHub has received praise from students, faculty, and staff. The new feature to purchase an Apple computer from the bookstore website has been positively received by parents and fiscal officers due to convenience and streamline process; an improvement from credit card transactions over the phone.
+            </p>
+         </div> <!--container-->
+         <br>
+         <div ng-include="'views/archive.html'"></div> <!--archive-->
+         </div><!--container -->
+         <div class="closeOut">
+            <div class="closeButton">
+               <img src="content/images/xbutton.svg" class="img-circle shadow xbutton" alt="" ng-click="workSection()">
+            </div> <!--closeButton-->
+         </div> <!--closeOut-->
+      </section>
+
+
+<!-- footer -->
+      <div ng-include="'views/homepage/footer.html'"></div>
+         <!-- Javascripts -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="content/js/main.js"></script> <!-- Resource jQuery -->
+      <script src="bower_components/angular/angular.js"></script>
+      <script src="content/js/close.js"></script>
+      <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="content/js/app.js"></script>
+   </body>
+</html>
