@@ -415,7 +415,7 @@ transition:all linear 0.5s;
 .version {
    padding-top: 10px;
 }
-.active {
+/*.active {
    color: #F0555C;
    transition:all linear 0.3s;
 }
@@ -423,7 +423,7 @@ transition:all linear 0.5s;
 .inactive {
    color: #F8F8F8;
    transition:all linear 0.3s;
-}
+}*/
 
 .white {
    color: white;
@@ -645,13 +645,41 @@ transition:all linear 0.5s;
    padding-top: 50px;
 }
 .demoWork {
-   padding: 50px 0 50px 0;
+   padding: 25px 0 25px 0;
    background-color: #FAFAFA;
 }
 
 .demoCard {
    margin: 15px 0 15px 0;
+   background: #424159;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+
+.demoCard > h2 {
+   position: absolute;
+   top: 35%;
+   width: 100%;
+   text-align: center;
+   color: white;
+   visibility: hidden;
+}
+
+.demoCard:hover > h2 {
+   visibility: visible;
+   pointer-events: none;
+}
+
+.cardColor {
+   opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.cardColor:hover {
+   opacity: .10;
+}
+
+
 
 .demoLogo {
    height: 40px;
@@ -707,4 +735,15 @@ transition:all linear 0.5s;
 
 .about-image {
    text-align: center;
+}
+
+.demoTitleSection {
+   padding: 75px 0 25px 0;
+   background-color: #434359;
+   color: white;
+}
+
+.navActive {
+   color: #EE575F;
+
 }
