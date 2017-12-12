@@ -3,11 +3,9 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Brice Okubo | About</title>
+      <title>Brice Okubo | TecHub</title>
       <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="bower_components/card.css">
-      <link rel="stylesheet" type="text/css" href="bower_components/style.css">
-      <link rel="stylesheet" href="content/css/navStyle.css"> <!-- Resource style -->
+      <link rel="stylesheet" type="text/css" href="bower_components/demoStyle.css">
       <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
       <link rel="shortcut icon" href="content/images/Blogo.png" type="image/x-icon" />
@@ -31,7 +29,7 @@
          </ul>
          <div class="container">
          <ul class="nav navbar-nav navbar-right">
-            <li><a href="demo.html">Portfolio</a></li>
+            <li><a href="demo.html"><span class="navActive">Portfolio</span></a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -41,7 +39,7 @@
       </nav>
       <!-- Content  -->
       <section class="techubBody" ng-app>
-         <div class="titleSection">
+         <div class="demoTitleSection">
             <div class="container">
                <div class="row">
                   <div class="col-md-6">
@@ -109,11 +107,7 @@
          <br>
          <div ng-include="'views/archive.html'"></div> <!--archive-->
          </div><!--container -->
-         <div class="closeOut">
-            <div class="closeButton">
-               <img src="content/images/xbutton.svg" class="img-circle shadow xbutton" alt="" ng-click="workSection()">
-            </div> <!--closeButton-->
-         </div> <!--closeOut-->
+
       </section>
 
 

@@ -5,9 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Brice Okubo | Contact</title>
       <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="bower_components/card.css">
-      <link rel="stylesheet" type="text/css" href="bower_components/style.css">
-      <link rel="stylesheet" href="content/css/navStyle.css"> <!-- Resource style -->
+      <link rel="stylesheet" type="text/css" href="bower_components/demoStyle.css">
       <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
       <link rel="shortcut icon" href="content/images/Blogo.png" type="image/x-icon" />
@@ -34,58 +32,61 @@
             <li><a href="demo.html">Portfolio</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html"><span class="navActive">Contact</span></a></li>
          </ul>
          </div>
       </div><!-- /.navbar-collapse -->
       </nav>
-
-
       <section class="contact">
-         <div class="row contactSpace">
-            <div class="col-md-10 col-md-offset-1">
-               <div class="row">
-                  <div class="col-md-6 col-sm-12 col-xs-12">
-                     <div class="col-md-12 col-lg-12 col-xl-12 col-sm-6 col-xs-12">
-                        <div id="mobileMessage">
-                           <h2 id="message">Message Me</h2>
-                           <a href="mailto:bricetokubo@gmail.com">
-                              <img class="contactImg img-circle shadow" src="content/images/contact/mail2.svg">
-                           </a>
-                        </div>
-                     </div>
+         <div class="contactSpace">
+            <div class="container">
+            <!--Email icon -->
+            <div class="row">
+               <div class="col-md-12">
+                  <div id="mobileMessage">
+                     <h2 id="message">Message Me</h2>
+                     <a href="mailto:bricetokubo@gmail.com">
+                        <img class="contactImg img-circle shadow" src="content/images/contact/mail2.svg">
+                     </a>
                   </div>
-                  <div class="col-md-6 col-sm-12 col-xs-12">
-                     <div class="row">
-                        <h2 id="follow">Follow Me </h2>
-                        <div class="col-md-6 col-lg-6 col-xl-2 col-sm-6 col-xs-6">
-                           <a href="https://www.linkedin.com/in/brice-okubo-83066b112/" target="_blank">
-                              <img class="contactImg img-responsive img-circle shadow" src="content/images/contact/linkedin2.svg">
-                           </a>
-                        </div>
-                        <div class="col-md-6 col-lg-6 col-xl-2 col-sm-6 col-xs-6">
-                           <a href="https://www.instagram.com/bee8o8/" target="_blank">
-                              <img class="contactImg img-responsive img-circle shadow" src="content/images/contact/instagram2.svg">
-                           </a>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-md-6 col-lg-6 col-xl-2 col-sm-6 col-xs-6">
-                           <a href="https://github.com/briceokubo" target="_blank">
-                              <img class="contactImg img-responsive img-circle shadow" src="content/images/contact/git.svg">
-                           </a>
-                        </div>
-                        <div class="col-md-6 col-lg-6 col-xl-2 col-sm-6 col-xs-6">
-                           <a href="https://briceokubo.threadless.com/" target="_blank">
-                              <img class="contactImg img-responsive img-circle shadow" src="content/images/contact/threadless2.svg">
-                           </a>
-                        </div>
-                     </div>
-                  </div>
-               </div><!--row -->
+               </div>
+            </div><!-- row -->
+            <!-- Follow me-->
+            <div class="row">
+               <h2 id="follow">Follow Me </h2>
+               <div class="col-md-3">
+                  <a href="https://www.linkedin.com/in/brice-okubo-83066b112/" target="_blank">
+                     <img class="contactImg img-responsive img-circle shadow" src="content/images/contact/linkedin2.svg">
+                  </a>
+               </div>
+               <div class="col-md-3">
+                  <a href="https://www.instagram.com/bee8o8/" target="_blank">
+                     <img class="contactImg img-responsive img-circle shadow" src="content/images/contact/instagram2.svg">
+                  </a>
+               </div>
+               <div class="col-md-3">
+                  <a href="https://github.com/briceokubo" target="_blank">
+                     <img class="contactImg img-responsive img-circle shadow" src="content/images/contact/git.svg">
+                  </a>
+               </div>
+               <div class="col-md-3">
+                  <a href="https://briceokubo.threadless.com/" target="_blank">
+                     <img class="contactImg img-responsive img-circle shadow" src="content/images/contact/threadless2.svg">
+                  </a>
+               </div>
+            </div>
             </div>
          </div><!-- contactSpace -->
          <script src="content/js/contact.js"></script>
       </section>
+      <!-- footer -->
+      <div ng-include="'views/homepage/footer.html'"></div>
+      <!-- Javascripts -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="content/js/main.js"></script> <!-- Resource jQuery -->
+      <script src="bower_components/angular/angular.js"></script>
+      <script src="content/js/close.js"></script>
+      <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="content/js/app.js"></script>
    </body>
 </html>
