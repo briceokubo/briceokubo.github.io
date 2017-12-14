@@ -189,9 +189,12 @@ transition:all linear 0.5s;
 }
 .aboutSum {
    font-weight:300;
-   font-size: 20px;
+   font-size: 18px;
    text-align: left;
    padding-left: 40px;
+   letter-spacing: .01rem;
+   line-height: 150%;
+   color: #434359;
 }
 
 @media all and (max-width: 500px) {
@@ -436,9 +439,13 @@ transition:all linear 0.5s;
    background-color: #F8F8F8;
    -webkit-transition:all linear 0.5s;
    transition:all linear 0.5s;
-   padding: 10px 0 20px 0;
+   padding: 80px 0 20px 0;
 }
-
+@media all and (max-width: 500px) {
+   .resume {
+      padding: 40px 0 20px 0;
+   }
+}
 .resumeBtn {
    margin: 10px 0 10px 0;
    background: #F2545B;
@@ -455,7 +462,16 @@ transition:all linear 0.5s;
 }
 
 .resumePosition {
-   left: 5%;
+   right: 10%;
+   position: absolute;
+}
+
+@media all and (max-width: 500px) {
+   .resumePosition {
+      position: relative;
+      text-align: center;
+      right: auto;
+   }
 }
 
 /*-- -----------
@@ -669,7 +685,23 @@ transition:all linear 0.5s;
    visibility: visible;
    pointer-events: none;
 }
+.demoCard > .demo-text {
+   position: absolute;
+   top: 35%;
+   width: 100%;
+   text-align: center;
+   color: white;
+   visibility: hidden;
+}
 
+ .demoCard:hover > .demo-text {
+   visibility: visible;
+   pointer-events: none;
+}
+
+.demo-text > h2 {
+   margin: 0;
+}
 .cardColor {
    opacity: 1;
 	-webkit-transition: .3s ease-in-out;
@@ -725,6 +757,7 @@ transition:all linear 0.5s;
 }
 
 /*demo about me */
+
 .about-content {
    background-color: white;
    padding: 50px 0 50px 0;
@@ -737,7 +770,25 @@ transition:all linear 0.5s;
 .about-image {
    text-align: center;
 }
+.about-left {
+   padding: 100px 0 0 0;
+}
+@media all and (max-width: 500px) {
+   .about-left {
+      padding-top: 20px;
+   }
+}
 
+.about-right {
+   padding: 50px 0 50px 0;
+   height: 550px;
+}
+@media all and (max-width: 500px) {
+   .about-right {
+      padding: 0;
+      height: auto;
+   }
+}
 .demoTitleSection {
    padding: 75px 0 25px 0;
    background-color: #434359;
@@ -747,4 +798,8 @@ transition:all linear 0.5s;
 .navActive {
    color: #EE575F;
 
+}
+
+#mobileMessage {
+   text-align: center;
 }
