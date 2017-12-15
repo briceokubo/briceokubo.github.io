@@ -687,7 +687,7 @@ transition:all linear 0.5s;
 }
 .demoCard > .demo-text {
    position: absolute;
-   top: 35%;
+   top: 45%;
    width: 100%;
    text-align: center;
    color: white;
@@ -801,5 +801,15 @@ transition:all linear 0.5s;
 }
 
 #mobileMessage {
+   text-align: center;
+}
+
+/* Archive  */
+.archive {
+   padding: 25px 0 25px 0;
+}
+
+.archive-card {
+   margin: 0 0 25px 0;
    text-align: center;
 }
