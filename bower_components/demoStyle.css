@@ -712,12 +712,34 @@ transition:all linear 0.5s;
    opacity: .10;
 }
 
-
+/* Nav section */
+.mobileLogo {
+   height: 40px;
+   width: 40px;
+   display: none;
+   margin: 5px 0 5px 5px;
+}
+@media all and (max-width: 750px) {
+   .mobileLogo {
+      display: inline;
+   }
+}
 
 .demoLogo {
    height: 40px;
    width: 40px;
+   visibility: visble;
 }
+@media all and (max-width: 750px) {
+   .demoLogo {
+      visibility: hidden;
+   }
+   .gone {
+      display: none;
+   }
+}
+
+
 
 .nav-color {
    background-color: #42415A;
@@ -799,7 +821,10 @@ transition:all linear 0.5s;
    color: #EE575F;
 
 }
-
+/* Contact Section */
+.contact-email {
+   padding: 25px 0 25px 0;
+}
 #mobileMessage {
    text-align: center;
 }
@@ -812,4 +837,8 @@ transition:all linear 0.5s;
 .archive-card {
    margin: 0 0 25px 0;
    text-align: center;
+}
+
+.archive-img {
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
