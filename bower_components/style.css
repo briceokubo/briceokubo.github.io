@@ -247,7 +247,7 @@ p, span, h4, h5, ul, li {
 }
 @media all and (max-width: 500px) {
    .resume {
-      padding: 40px 0 20px 0;
+      padding: 60px 0 5px 0;
    }
 }
 .resumeImg {
@@ -288,6 +288,12 @@ p, span, h4, h5, ul, li {
    padding-top: 50px;
    -webkit-transition:all linear 0.5s;
    transition:all linear 0.5s;
+}
+@media all and (max-width: 500px) {
+   .contact {
+      padding-top: 20px;
+      padding-bottom: 10px;
+   }
 }
 .contact-email {
    padding: 25px 0 25px 0;
@@ -353,12 +359,30 @@ p, span, h4, h5, ul, li {
    max-width: 800px;
    margin-left: auto;
    margin-right: auto;
+   background-color: #FAFAFA;
 }
 @media all and (max-width: 500px) {
    .HAtext {
       font-size: 16px;
       line-height: 1.9;
       color: #40445E;
+      max-width: auto;
+
+   }
+}
+.darkText {
+   font-size: 19px;
+   line-height: 1.9;
+   color: white;
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+}
+@media all and (max-width: 500px) {
+   .darkText {
+      font-size: 16px;
+      line-height: 1.9;
+      color: white;
       max-width: auto;
 
    }
@@ -403,6 +427,9 @@ p, span, h4, h5, ul, li {
       max-width: 100%;
       max-height: 100%;
    }
+}
+.cn-img {
+   background-color: #FAFAFA;
 }
 /*  ------- Archive ---------- */
 .archive {
