@@ -47,7 +47,7 @@
             <p class="HAtext">
                I conduct interviews with our target audience to build personas. Through the information that is gathered, I am able to identify designs to accommodate the needs of potential users.
             </p>
-            <img class="img-responsive" src="content/images/work/moderncompass/persona@2x.png">
+            <img class="img-responsive" src="content/images/work/moderncompass/persona@2x.png" data-toggle="modal" data-target="#MCpersona">
          </div><!--myWorkBody -->
          <div class="mobile">
             <div class="container">
@@ -56,15 +56,15 @@
                <p class="darkText">
                   I drafted numerous low-fidelity wireframes before creating mockups in Adobe Experience Design CC. Through design reviews, we are able to achieve a simple, smooth, modern UI based on Material Design.
                </p>
-               <img class="img-responsive" src="content/images/work/moderncompass/mobile@2x.png">
-               <img class="img-responsive" src="content/images/work/moderncompass/mobile2@2x.png">
+               <img class="img-responsive" src="content/images/work/moderncompass/mobile@2x.png" data-toggle="modal" data-target="#mobile1">
+               <img class="img-responsive" src="content/images/work/moderncompass/mobile2@2x.png" data-toggle="modal" data-target="#mobile2">
             </div>
          </div><!-- mobile -->
          <div class="mobile">
             <div class="container">
                <h1 class="MCtitle">UI Design</h2>
                <h3 class="MCsubtitle">Web Application</h3>
-               <img class="img-responsive" src="content/images/work/moderncompass/web3@2x.png">
+               <img class="img-responsive" src="content/images/work/moderncompass/web3@2x.png" data-toggle="modal" data-target="#desktop1">
             </div>
          </div> <!--mobile-->
          <div class="container">
@@ -76,6 +76,9 @@
             </div>
          </div> <!--container -->
       </section>
+      <!-- Modal-->
+      <div ng-include="'views/modal/mc-modal.html'"></div>
+      <!-- Archive-->
       <div ng-include="'views/demoViews/archive.html'"></div>
       <!-- footer -->
       <div ng-include="'views/homepage/footer.html'"></div>
