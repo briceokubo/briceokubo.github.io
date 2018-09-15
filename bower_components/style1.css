@@ -1,0 +1,466 @@
+/*  -------GLOBAL---------- */
+body {
+   background-image: url("images/aboutBG.svg");
+   background-color: #FAFAFA;
+}
+h1, h2, h3 {
+   font-family: 'Cabin', sans-serif;
+   padding-bottom: 18px;
+}
+
+p, span, h4, h5, ul, li {
+   font-family: 'Open Sans', sans-serif;
+}
+/*  -------Navigation---------- */
+.nav-color {
+   background-color: #42415A;
+}
+
+.navbar {
+   margin-bottom: 0px;
+   border: 0;
+}
+.navbar-toggle {
+   background-color: #EE575F;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+   background-color: white;
+}
+/* mobile view navbar */
+.navbar-header {
+   background-color: #424159;
+}
+.navbar-right {
+   margin-top: 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+   color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+   color: #EE575F;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+   background-color: #EE565F;
+}
+
+@media all and (max-width: 767px) {
+.nav>li {
+   text-align: center;
+   font-size: 20px;
+   margin: 10px 0 10px 0;
+   }
+}
+
+.mobileLogo {
+   height: 40px;
+   width: 40px;
+   display: none;
+   margin: 5px 0 5px 5px;
+}
+@media all and (max-width: 767px) {
+   .mobileLogo {
+      display: inline;
+   }
+}
+
+.demoLogo {
+   height: 40px;
+   width: 40px;
+   visibility: visble;
+}
+@media all and (max-width: 767px) {
+   .demoLogo {
+      visibility: hidden;
+   }
+   .gone {
+      display: none;
+   }
+}
+.navActive {
+   color: #EE575F;
+}
+/*  -------Index---------- */
+
+/* Hero Section*/
+.demoHero {
+   background-image: url("images/hero3.svg");
+   width: 100%;
+   background-color: #84D1DD;
+   text-align: center;
+   color: #000519;
+   padding-top: 80px;
+}
+.myTitle {
+   position: absolute;
+   padding-top: 100px;
+   padding-left: 180px;
+}
+@media all and (max-width: 800px) {
+   .myTitle {
+      visibility: hidden;
+      padding-left: 0;
+   }
+}
+#heroName {
+   padding: 0px;
+   font-size: 50px;
+   letter-spacing: 3px;
+   color: #434359;
+}
+
+#heroDesc {
+   color: #434359;
+}
+
+.heroLeft {
+   padding-top: 10px;
+   color: #434359;
+}
+@media screen and (min-width: 800px) {
+   .heroLeft {
+      visibility: hidden;
+      color: #434359;
+   }
+}
+@media all and (max-width: 500px) {
+   .heroLeft {
+      padding-top: 0px;
+      color: #434359;
+   }
+}
+.heroImage {
+   margin-bottom: 10px;
+}
+
+/* Portfolio Section */
+.demoWork {
+   padding: 25px 0 0 0;
+}
+.demoCard {
+   margin: 0 0 25px 0;
+   background: #424159;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.demoCard > h2 {
+   position: absolute;
+   top: 35%;
+   width: 100%;
+   text-align: center;
+   color: white;
+   visibility: hidden;
+}
+
+.demoCard:hover > h2 {
+   visibility: visible;
+   pointer-events: none;
+}
+.demoCard > .demo-text {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   color: white;
+   visibility: hidden;
+}
+
+ .demoCard:hover > .demo-text {
+   visibility: visible;
+   pointer-events: none;
+}
+
+.demo-text > h2 {
+   margin: 0;
+}
+.cardColor {
+   opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.cardColor:hover {
+   opacity: .10;
+}
+
+/*  -------About---------- */
+
+.about-content {
+   padding: 50px 0 50px 0;
+}
+.about-left {
+   padding: 100px 0 0 0;
+}
+@media all and (max-width: 500px) {
+   .about-left {
+      padding-top: 20px;
+   }
+}
+.about-image {
+   text-align: center;
+}
+.about-right {
+   padding: 50px 0 50px 0;
+   height: 550px;
+   background-color: #FAFAFA;
+}
+@media all and (max-width: 500px) {
+   .about-right {
+      padding: 0;
+      height: auto;
+   }
+}
+#knowTitle {
+   text-align: center;
+   color: #434359;
+   margin-top: 25px;
+}
+@media all and (max-width: 500px) {
+   #knowTitle{
+      margin-bottom: 0px;
+   }
+}
+.aboutSum {
+   font-weight:400;
+   font-size: 18px;
+   text-align: left;
+   padding-left: 40px;
+   letter-spacing: .01rem;
+   line-height: 150%;
+   color: #434359;
+}
+
+@media all and (max-width: 500px) {
+   .aboutSum{
+   font-size: 16px;
+   line-height: 1.5;
+   padding: 0 0 10px 0;
+   }
+}
+/*  -------Resume---------- */
+
+.resume {
+   transition:all linear 0.5s;
+   padding: 80px 0 20px 0;
+
+}
+@media all and (max-width: 500px) {
+   .resume {
+      padding: 60px 0 5px 0;
+   }
+}
+.resumeImg {
+   background-color: white;
+}
+.shadow {
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.resumePosition {
+   width: 100%;
+   text-align: center;
+}
+@media all and (max-width: 500px) {
+   .resumePosition {
+      position: relative;
+      text-align: center;
+      right: auto;
+   }
+}
+.resumeBtn {
+   margin: 10px 0 10px 0;
+   background: #F2545B;
+   color: white;
+   padding: 15px 32px;
+   border: none;
+   text-align: center;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 3px;
+   margin-right: 10px;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+/*  -------Contact---------- */
+.contact {
+   width: 100%;
+   padding-bottom: 50px;
+   padding-top: 50px;
+   -webkit-transition:all linear 0.5s;
+   transition:all linear 0.5s;
+}
+@media all and (max-width: 500px) {
+   .contact {
+      padding-top: 20px;
+      padding-bottom: 10px;
+   }
+}
+.contact-email {
+   padding: 25px 0 25px 0;
+}
+#mobileMessage {
+   text-align: center;
+}
+#follow {
+   text-align: center;
+}
+.contactImg {
+   margin-bottom: 10px;
+   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+/*  -------Footer---------- */
+.myFooter {
+   background-color: #0D1B2A;
+   width: 100%;
+   padding-bottom: 20px;
+   padding-top: 25px;
+   text-align: center;
+   color: white;
+   margin-right: 0;
+   margin-left: 0;
+}
+.version {
+   padding-top: 10px;
+}
+.footIcon {
+   height: 25px;
+   width: 60px;1
+   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+/*  ------- Work Section ---------- */
+.demoTitleSection {
+   padding: 75px 0 25px 0;
+   background-color: #434359;
+   color: white;
+}
+.titleWork {
+   padding-bottom: 0px;
+}
+.workSum {
+   font-size: 24px;
+   color: #F8F8F8;
+   font-weight:300;
+}
+.myWorkBody {
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+@media all and (max-width: 500px) {
+   .myWorkBody {
+      padding-top: 10px;
+      padding-bottom: 50px;
+   }
+}
+
+.workHeader {
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   color: #40445E;
+}
+.HAtext {
+   font-size: 19px;
+   line-height: 1.9;
+   color: #40445E;
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #FAFAFA;
+}
+@media all and (max-width: 500px) {
+   .HAtext {
+      font-size: 16px;
+      line-height: 1.9;
+      color: #40445E;
+      max-width: auto;
+
+   }
+}
+.darkText {
+   font-size: 19px;
+   line-height: 1.9;
+   color: white;
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+}
+@media all and (max-width: 500px) {
+   .darkText {
+      font-size: 16px;
+      line-height: 1.9;
+      color: white;
+      max-width: auto;
+
+   }
+}
+.concept {
+   padding: 25px 10px 25px 10px;
+}
+.mobile {
+   background-color: #434358;
+}
+
+/* Modern Compass */
+.MCtitle {
+   text-align: center;
+   color: white;
+   padding-bottom: 0px;
+   padding-top: 50px;
+}
+.MCsubtitle {
+   text-align: center;
+   color: #5DDBA4;
+}
+.white {
+   color: white;
+}
+.MCheader {
+   text-align: center;
+   color: white;
+   padding-bottom: 0px;
+}
+.padTop {
+   padding-top: 50px;
+}
+.workImg {
+   margin-bottom: 20px;
+   max-width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+}
+@media all and (max-width: 800px) {
+   .workImg {
+      max-width: 100%;
+      max-height: 100%;
+   }
+}
+.cn-img {
+   background-color: #FAFAFA;
+}
+
+/* ------ Modal -------------- */
+.modal-header {
+   background-color: #424159;
+   color: white;
+   text-align: center;
+}
+
+.close {
+   text-shadow: none;
+   opacity: 1;
+   color: #EE575F;
+}
+/*  ------- Archive ---------- */
+.archive {
+   padding: 25px 0 25px 0;
+}
+.archive-card {
+   margin: 0 0 25px 0;
+   text-align: center;
+}
