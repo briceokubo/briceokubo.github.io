@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Brice Okubo | UX & Web Designer</title>
+      <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="bower_components/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+      <link rel="shortcut icon" href="content/images/Blogo.png" type="image/x-icon" />
+   </head>
+   <body>
+      <div ng-include="'views/demoNav/nav-index.html'"></div>
+
+      <!--Hero Section -->
+      <section class="demoHero">
+         <div class="container">
+            <div class="myTitle">
+               <h1 id="heroName">Brice Okubo</h1>
+               <h3 id="heroDesc">< UX & Web Designer /> </h3>
+            </div>
+            <div class="row">
+               <div class="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12">
+                  <div class="heroLeft">
+                     <h1 id="heroName">Brice Okubo</h1>
+                     <h3 id="heroDesc">< UX & Web Designer /> </h3>
+                  </div> <!-- heroLeft -->
+               </div>
+               <div class="col-lg-8 col-xl-8 col-md-8 col-sm-12 col-xs-12">
+                  <img src="content/images/homepage/webHero.svg" class="heroImage" height="50%" width="50%">
+               </div>
+            </div><!-- row -->
+         </div><!--container -->
+      </section>
+
+      <!--Work section -->
+      <section class="demoWork">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="demoCard">
+                     <a href="moderncompass.html"><img src="content/images/homepage/MCicon2.svg" class="img-responsive cardColor"></a>
+                     <div class="demo-text">
+                        <h2>Modern Compass</h2>
+                        <h4>Mobile & Web Application</h4>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="demoCard">
+                     <a href="techub.html"><img src="content/images/homepage/techub2.png" class="img-responsive cardColor"></a>
+                     <div class="demo-text">
+                        <h2>TecHub</h2>
+                        <h4>E-Commerce Web Design</h4>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="demoCard">
+                     <a href="cnchallenge.html"><img src="content/images/homepage/CN2.png" class="img-responsive cardColor"></a>
+                     <div class="demo-text">
+                        <h2>Carbon Neutrality Challenge </h2>
+                        <h4>UI/UX Case Study</h4>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="demoCard">
+                     <a href="hikealoha.html"><img src="content/images/homepage/hikealoha2.svg" class="img-responsive cardColor"></a>
+                     <div class="demo-text">
+                        <h2>Hike Aloha </h2>
+                        <h4>Mobile Application</h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- footer -->
+      <div ng-include="'views/homepage/footer.html'"></div>
+      <!-- Javascripts -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="content/js/main.js"></script> <!-- Resource jQuery -->
+      <script src="bower_components/angular/angular.js"></script>
+      <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="content/js/app.js"></script>
+   </body>
+</html>
