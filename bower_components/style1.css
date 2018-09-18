@@ -13,7 +13,8 @@ p, span, h4, h5, ul, li {
 }
 /*  -------Navigation---------- */
 .nav-color {
-   background-color: #42415A;
+   background-color: #FAFAFA;
+   /*background-color: #42415A;*/
 }
 
 .navbar {
@@ -38,7 +39,9 @@ p, span, h4, h5, ul, li {
 }
 
 .navbar-default .navbar-nav>li>a {
-   color: white;
+   color: #625959;
+   font-weight: 700;
+   padding: 15px 30px 15px 30px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -89,58 +92,41 @@ p, span, h4, h5, ul, li {
 
 /* Hero Section*/
 .demoHero {
-   background-image: url("images/hero3.svg");
+   /*background-image: url("images/heroNew.svg"); */
+   background: -webkit-linear-gradient(70deg, #6200EE 40%, #3700B3 40%);
    width: 100%;
-   background-color: #84D1DD;
    text-align: center;
    color: #000519;
    padding-top: 80px;
+
+}
+.demoHeroBG {
+   background-image: url("images/heroNew1.svg");
+   padding-bottom: 100px;
+
 }
 .myTitle {
-   position: absolute;
-   padding-top: 100px;
-   padding-left: 180px;
+   padding-top: 75px;
 }
-@media all and (max-width: 800px) {
-   .myTitle {
-      visibility: hidden;
-      padding-left: 0;
-   }
-}
+
 #heroName {
    padding: 0px;
    font-size: 50px;
    letter-spacing: 3px;
-   color: #434359;
+   color: white;
 }
 
 #heroDesc {
-   color: #434359;
+   color: white;
 }
 
-.heroLeft {
-   padding-top: 10px;
-   color: #434359;
-}
-@media screen and (min-width: 800px) {
-   .heroLeft {
-      visibility: hidden;
-      color: #434359;
-   }
-}
-@media all and (max-width: 500px) {
-   .heroLeft {
-      padding-top: 0px;
-      color: #434359;
-   }
-}
 .heroImage {
    margin-bottom: 10px;
 }
 
 /* Portfolio Section */
 .demoWork {
-   padding: 25px 0 0 0;
+   padding: 50px 0 0 0;
 }
 .demoCard {
    margin: 0 0 25px 0;
